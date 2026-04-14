@@ -1,0 +1,10 @@
+#f8f9fa - text
+#1E252B - bottom bg
+#3A4853 - selected bg 
+#2B343C - raiseed bg
+#66ACFF - active blue
+#73C84C - active green
+#13A0B1 - logo teal
+#FA481C - logo orange
+#A2AFB7 - bg text
+#313233 - activity grey

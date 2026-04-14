@@ -1,0 +1,158 @@
+{
+  "steps": [
+    {
+      "type": "console",
+      "level": "debug",
+      "text": "[vite] connecting...",
+      "ts": "2026-04-07T00:07:00.636Z"
+    },
+    {
+      "type": "console",
+      "level": "debug",
+      "text": "[vite] connected.",
+      "ts": "2026-04-07T00:07:00.642Z"
+    },
+    {
+      "type": "console",
+      "level": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "ts": "2026-04-07T00:07:00.671Z"
+    },
+    {
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connect.attempt {wsUrl: ws://127.0.0.1:8080/ws, httpBaseUrl: http://127.0.0.1:8080}",
+      "ts": "2026-04-07T00:07:00.732Z"
+    },
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "WebSocket connection to 'ws://127.0.0.1:8080/ws' failed: WebSocket is closed before the connection is established.",
+      "ts": "2026-04-07T00:07:00.732Z"
+    },
+    {
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connect.attempt {wsUrl: ws://127.0.0.1:8080/ws, httpBaseUrl: http://127.0.0.1:8080}",
+      "ts": "2026-04-07T00:07:00.732Z"
+    },
+    {
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: socket.onopen}",
+      "ts": "2026-04-07T00:07:00.746Z"
+    },
+    {
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.onopen {wsUrl: ws://127.0.0.1:8080/ws, readyState: OPEN}",
+      "ts": "2026-04-07T00:07:00.746Z"
+    },
+    {
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.started {reason: socket_open, connectionState: connecting}",
+      "ts": "2026-04-07T00:07:00.746Z"
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "[underwriting-client] coordinator.error {summary: Localhost-only mode: allowed origins are http://lo…080, http://localhost:5173, http://localhost:5174, detail: Object}",
+      "ts": "2026-04-07T00:07:00.746Z"
+    },
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "[underwriting-client] socket.onclose {wsUrl: ws://127.0.0.1:8080/ws, code: 1008, reason: Policy violation, wasClean: false, readyState: CLOSED}",
+      "ts": "2026-04-07T00:07:00.758Z"
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "[underwriting-client] coordinator.error {summary: WebSocket closed (1008), detail: Object}",
+      "ts": "2026-04-07T00:07:00.758Z"
+    },
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "[underwriting-client] socket.reconnect.scheduled {delayMs: 12000}",
+      "ts": "2026-04-07T00:07:00.758Z"
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "[underwriting-client] coordinator.error {summary: WebSocket connection closed, detail: Object}",
+      "ts": "2026-04-07T00:07:00.763Z"
+    },
+    {
+      "type": "initial_body_preview",
+      "text": "End To End Credit - Loan Underwriting\nWebSocket connection closed\nShow Details\nLoans In Process\n\nNo loans found.\n\nStart New Loan\n\n→",
+      "ts": "2026-04-07T00:07:08.709Z"
+    },
+    {
+      "type": "loan_003_count",
+      "count": 0,
+      "ts": "2026-04-07T00:07:08.710Z"
+    },
+    {
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connect.attempt {wsUrl: ws://127.0.0.1:8080/ws, httpBaseUrl: http://127.0.0.1:8080}",
+      "ts": "2026-04-07T00:07:12.758Z"
+    },
+    {
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: socket.onopen}",
+      "ts": "2026-04-07T00:07:12.765Z"
+    },
+    {
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.onopen {wsUrl: ws://127.0.0.1:8080/ws, readyState: OPEN}",
+      "ts": "2026-04-07T00:07:12.765Z"
+    },
+    {
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.started {reason: socket_open, connectionState: connecting}",
+      "ts": "2026-04-07T00:07:12.765Z"
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "[underwriting-client] coordinator.error {summary: Localhost-only mode: allowed origins are http://lo…080, http://localhost:5173, http://localhost:5174, detail: Object}",
+      "ts": "2026-04-07T00:07:12.765Z"
+    },
+    {
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.onclose {wsUrl: ws://127.0.0.1:8080/ws, code: 1008, reason: Policy violation, wasClean: true, readyState: CLOSED}",
+      "ts": "2026-04-07T00:07:12.773Z"
+    },
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "[underwriting-client] socket.reconnect.scheduled {delayMs: 12000}",
+      "ts": "2026-04-07T00:07:12.773Z"
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "[underwriting-client] coordinator.error {summary: WebSocket connection closed, detail: Object}",
+      "ts": "2026-04-07T00:07:12.779Z"
+    },
+    {
+      "type": "relevant_lines",
+      "lines": [],
+      "ts": "2026-04-07T00:07:18.714Z"
+    },
+    {
+      "type": "chips",
+      "values": [],
+      "ts": "2026-04-07T00:07:18.722Z"
+    }
+  ],
+  "errors": [],
+  "capturedAt": "2026-04-07T00:06:59.798Z"
+}

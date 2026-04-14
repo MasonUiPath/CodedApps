@@ -1,0 +1,471 @@
+{
+  "capturedAt": "2026-04-06T17:38:51.760Z",
+  "samples": [
+    {
+      "tSec": 0,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 2,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 4,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 6,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 8,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 10,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 12,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 14,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 16,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 18,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 20,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 22,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 24,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 26,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 28,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 30,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 32,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 34,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 36,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 38,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 40,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 42,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 44,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 46,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 48,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 50,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 52,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 54,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 56,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 58,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 60,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 62,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 64,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 66,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    },
+    {
+      "tSec": 68,
+      "href": "http://127.0.0.1:4175/",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 19300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0
+    }
+  ],
+  "events": [
+    {
+      "ts": "2026-04-06T17:37:36.641Z",
+      "type": "console",
+      "level": "debug",
+      "text": "[vite] connecting..."
+    },
+    {
+      "ts": "2026-04-06T17:37:36.656Z",
+      "type": "console",
+      "level": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "ts": "2026-04-06T17:37:36.713Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connect.attempt {wsUrl: wss://unbowled-paul-decisional.ngrok-free.dev/ws, httpBaseUrl: https://unbowled-paul-decisional.ngrok-free.dev}"
+    },
+    {
+      "ts": "2026-04-06T17:37:36.714Z",
+      "type": "console",
+      "level": "warning",
+      "text": "WebSocket connection to 'wss://unbowled-paul-decisional.ngrok-free.dev/ws' failed: WebSocket is closed before the connection is established."
+    },
+    {
+      "ts": "2026-04-06T17:37:36.714Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connect.attempt {wsUrl: wss://unbowled-paul-decisional.ngrok-free.dev/ws, httpBaseUrl: https://unbowled-paul-decisional.ngrok-free.dev}"
+    },
+    {
+      "ts": "2026-04-06T17:37:36.714Z",
+      "type": "console",
+      "level": "debug",
+      "text": "[vite] connected."
+    },
+    {
+      "ts": "2026-04-06T17:37:36.844Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: socket.onopen}"
+    },
+    {
+      "ts": "2026-04-06T17:37:36.844Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.onopen {wsUrl: wss://unbowled-paul-decisional.ngrok-free.dev/ws, readyState: OPEN}"
+    },
+    {
+      "ts": "2026-04-06T17:37:36.844Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.started {reason: socket_open, connectionState: connecting}"
+    },
+    {
+      "ts": "2026-04-06T17:37:36.844Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: socket.connected_message}"
+    },
+    {
+      "ts": "2026-04-06T17:37:36.844Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connected_message {clientId: c62ed4c7-f243-40b1-8d01-c27791fc5784}"
+    },
+    {
+      "ts": "2026-04-06T17:37:37.203Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: loans.load.succeeded}"
+    },
+    {
+      "ts": "2026-04-06T17:37:37.203Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.succeeded {reason: socket_open, count: 3}"
+    },
+    {
+      "ts": "2026-04-06T17:37:37.215Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.started {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:37:37.215Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.started {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:37:37.677Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.succeeded {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, count: 0}"
+    },
+    {
+      "ts": "2026-04-06T17:37:37.920Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.dataset_counts {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, definitionsTotal: 1, nodesTotal: 10, transitionsTotal: 10, instancesTotal: 27}"
+    },
+    {
+      "ts": "2026-04-06T17:37:37.920Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.matching {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, activeFlowId: 935DF973-812F-F111-9A49-6045BDF0582E, flowNodes: 6, flowTransitions: 7, instanceId: C3801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:37:37.920Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.succeeded {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, flowName: E2E_Loan workflow, nodeCount: 6, edgeCount: 7, currentStatusLabel: New Loan}"
+    }
+  ]
+}

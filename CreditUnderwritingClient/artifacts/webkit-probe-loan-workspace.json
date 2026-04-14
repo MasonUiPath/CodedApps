@@ -1,0 +1,452 @@
+{
+  "capturedAt": "2026-04-06T17:43:06.677Z",
+  "events": [
+    {
+      "ts": "2026-04-06T17:41:38.360Z",
+      "type": "navigate",
+      "url": "http://127.0.0.1:4174/"
+    },
+    {
+      "ts": "2026-04-06T17:41:38.375Z",
+      "type": "console",
+      "level": "debug",
+      "text": "[vite] connecting..."
+    },
+    {
+      "ts": "2026-04-06T17:41:38.399Z",
+      "type": "console",
+      "level": "debug",
+      "text": "[vite] connected."
+    },
+    {
+      "ts": "2026-04-06T17:41:38.436Z",
+      "type": "console",
+      "level": "info",
+      "text": "Successfully preconnected to https://fonts.gstatic.com/"
+    },
+    {
+      "ts": "2026-04-06T17:41:38.436Z",
+      "type": "console",
+      "level": "info",
+      "text": "Successfully preconnected to https://fonts.googleapis.com/"
+    },
+    {
+      "ts": "2026-04-06T17:41:38.454Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connect.attempt {wsUrl: ws://localhost:8080/ws, httpBaseUrl: http://localhost:8080}"
+    },
+    {
+      "ts": "2026-04-06T17:41:38.454Z",
+      "type": "console",
+      "level": "error",
+      "text": "WebSocket connection to 'ws://localhost:8080/ws' failed: WebSocket is closed before the connection is established."
+    },
+    {
+      "ts": "2026-04-06T17:41:38.455Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connect.attempt {wsUrl: ws://localhost:8080/ws, httpBaseUrl: http://localhost:8080}"
+    },
+    {
+      "ts": "2026-04-06T17:41:38.464Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: socket.onopen}"
+    },
+    {
+      "ts": "2026-04-06T17:41:38.464Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.onopen {wsUrl: ws://localhost:8080/ws, readyState: OPEN}"
+    },
+    {
+      "ts": "2026-04-06T17:41:38.465Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.started {reason: socket_open, connectionState: connecting}"
+    },
+    {
+      "ts": "2026-04-06T17:41:38.465Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: socket.connected_message}"
+    },
+    {
+      "ts": "2026-04-06T17:41:38.465Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connected_message {clientId: 3588633c-66a4-4804-b992-4eea7b5a5745}"
+    },
+    {
+      "ts": "2026-04-06T17:41:38.919Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: loans.load.succeeded}"
+    },
+    {
+      "ts": "2026-04-06T17:41:38.919Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.succeeded {reason: socket_open, count: 3}"
+    },
+    {
+      "ts": "2026-04-06T17:41:38.940Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.started {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:41:38.941Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.started {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:41:39.712Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.succeeded {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, count: 0}"
+    },
+    {
+      "ts": "2026-04-06T17:41:39.800Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.dataset_counts {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, definitionsTotal: 1, nodesTotal: 10, transitionsTotal: 10, instancesTotal: 27}"
+    },
+    {
+      "ts": "2026-04-06T17:41:39.800Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.matching {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, activeFlowId: 935DF973-812F-F111-9A49-6045BDF0582E, flowNodes: 6, flowTransitions: 7, instanceId: C3801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:41:39.800Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.succeeded {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, flowName: E2E_Loan workflow, nodeCount: 6, edgeCount: 7, currentStatusLabel: New Loan}"
+    },
+    {
+      "ts": "2026-04-06T17:41:43.469Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.started {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:41:43.469Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.started {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:41:43.522Z",
+      "type": "action",
+      "action": "click",
+      "target": "Loan 001"
+    },
+    {
+      "ts": "2026-04-06T17:41:43.876Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.succeeded {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, count: 0}"
+    },
+    {
+      "ts": "2026-04-06T17:41:44.228Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.dataset_counts {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, definitionsTotal: 1, nodesTotal: 10, transitionsTotal: 10, instancesTotal: 27}"
+    },
+    {
+      "ts": "2026-04-06T17:41:44.228Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.matching {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, activeFlowId: 935DF973-812F-F111-9A49-6045BDF0582E, flowNodes: 6, flowTransitions: 7, instanceId: C3801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:41:44.228Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.succeeded {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, flowName: E2E_Loan workflow, nodeCount: 6, edgeCount: 7, currentStatusLabel: New Loan}"
+    },
+    {
+      "ts": "2026-04-06T17:41:46.535Z",
+      "type": "sample",
+      "tSec": 0,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:41:48.537Z",
+      "type": "sample",
+      "tSec": 2,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:41:50.539Z",
+      "type": "sample",
+      "tSec": 4,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:41:52.542Z",
+      "type": "sample",
+      "tSec": 6,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:41:54.545Z",
+      "type": "sample",
+      "tSec": 8,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:41:56.546Z",
+      "type": "sample",
+      "tSec": 10,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:41:58.548Z",
+      "type": "sample",
+      "tSec": 12,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:00.550Z",
+      "type": "sample",
+      "tSec": 14,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:02.555Z",
+      "type": "sample",
+      "tSec": 16,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:04.559Z",
+      "type": "sample",
+      "tSec": 18,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:06.562Z",
+      "type": "sample",
+      "tSec": 20,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:08.564Z",
+      "type": "sample",
+      "tSec": 22,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:10.566Z",
+      "type": "sample",
+      "tSec": 24,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:12.568Z",
+      "type": "sample",
+      "tSec": 26,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:14.570Z",
+      "type": "sample",
+      "tSec": 28,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:16.573Z",
+      "type": "sample",
+      "tSec": 30,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:18.575Z",
+      "type": "sample",
+      "tSec": 32,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:20.577Z",
+      "type": "sample",
+      "tSec": 34,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:22.580Z",
+      "type": "sample",
+      "tSec": 36,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:24.582Z",
+      "type": "sample",
+      "tSec": 38,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:26.585Z",
+      "type": "sample",
+      "tSec": 40,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:28.587Z",
+      "type": "sample",
+      "tSec": 42,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:30.589Z",
+      "type": "sample",
+      "tSec": 44,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:32.592Z",
+      "type": "sample",
+      "tSec": 46,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:34.594Z",
+      "type": "sample",
+      "tSec": 48,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:36.597Z",
+      "type": "sample",
+      "tSec": 50,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:38.600Z",
+      "type": "sample",
+      "tSec": 52,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:40.602Z",
+      "type": "sample",
+      "tSec": 54,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:42.604Z",
+      "type": "sample",
+      "tSec": 56,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:44.607Z",
+      "type": "sample",
+      "tSec": 58,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:46.608Z",
+      "type": "sample",
+      "tSec": 60,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:48.610Z",
+      "type": "sample",
+      "tSec": 62,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:50.612Z",
+      "type": "sample",
+      "tSec": 64,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:52.617Z",
+      "type": "sample",
+      "tSec": 66,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:54.619Z",
+      "type": "sample",
+      "tSec": 68,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:56.622Z",
+      "type": "sample",
+      "tSec": 70,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:42:58.624Z",
+      "type": "sample",
+      "tSec": 72,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:43:00.626Z",
+      "type": "sample",
+      "tSec": 74,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:43:02.629Z",
+      "type": "sample",
+      "tSec": 76,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    },
+    {
+      "ts": "2026-04-06T17:43:04.632Z",
+      "type": "sample",
+      "tSec": 78,
+      "href": "http://127.0.0.1:4174/",
+      "alerts": 0
+    }
+  ]
+}

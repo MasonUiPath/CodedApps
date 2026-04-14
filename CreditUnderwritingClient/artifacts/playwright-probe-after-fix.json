@@ -1,0 +1,176 @@
+{
+  "capturedAt": "2026-04-06T18:36:21.361Z",
+  "summary": {
+    "url": "http://127.0.0.1:4176/",
+    "successSeen": true,
+    "reactFlowSizingWarnings": 0,
+    "alerts": []
+  },
+  "events": [
+    {
+      "ts": "2026-04-06T18:36:06.169Z",
+      "type": "console",
+      "level": "debug",
+      "text": "[vite] connecting..."
+    },
+    {
+      "ts": "2026-04-06T18:36:06.183Z",
+      "type": "console",
+      "level": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "ts": "2026-04-06T18:36:06.239Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connect.attempt {wsUrl: wss://unbowled-paul-decisional.ngrok-free.dev/ws, httpBaseUrl: https://unbowled-paul-decisional.ngrok-free.dev}"
+    },
+    {
+      "ts": "2026-04-06T18:36:06.239Z",
+      "type": "console",
+      "level": "warning",
+      "text": "WebSocket connection to 'wss://unbowled-paul-decisional.ngrok-free.dev/ws' failed: WebSocket is closed before the connection is established."
+    },
+    {
+      "ts": "2026-04-06T18:36:06.240Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connect.attempt {wsUrl: wss://unbowled-paul-decisional.ngrok-free.dev/ws, httpBaseUrl: https://unbowled-paul-decisional.ngrok-free.dev}"
+    },
+    {
+      "ts": "2026-04-06T18:36:06.240Z",
+      "type": "console",
+      "level": "debug",
+      "text": "[vite] connected."
+    },
+    {
+      "ts": "2026-04-06T18:36:06.361Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: socket.onopen}"
+    },
+    {
+      "ts": "2026-04-06T18:36:06.361Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.onopen {wsUrl: wss://unbowled-paul-decisional.ngrok-free.dev/ws, readyState: OPEN}"
+    },
+    {
+      "ts": "2026-04-06T18:36:06.361Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.started {reason: socket_open, connectionState: connecting}"
+    },
+    {
+      "ts": "2026-04-06T18:36:06.361Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: socket.connected_message}"
+    },
+    {
+      "ts": "2026-04-06T18:36:06.361Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connected_message {clientId: 235649a3-5abf-481d-8bcd-03b9cce0626a}"
+    },
+    {
+      "ts": "2026-04-06T18:36:06.873Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: loans.load.succeeded}"
+    },
+    {
+      "ts": "2026-04-06T18:36:06.873Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.succeeded {reason: socket_open, count: 2}"
+    },
+    {
+      "ts": "2026-04-06T18:36:06.884Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.started {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T18:36:06.884Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.started {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T18:36:07.900Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.dataset_counts {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, definitionsTotal: 1, nodesTotal: 10, transitionsTotal: 10, instancesTotal: 26}"
+    },
+    {
+      "ts": "2026-04-06T18:36:07.901Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.matching {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, activeFlowId: 935DF973-812F-F111-9A49-6045BDF0582E, flowNodes: 6, flowTransitions: 7, instanceId: C3801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T18:36:07.901Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.succeeded {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, flowName: E2E_Loan workflow, nodeCount: 6, edgeCount: 7, currentStatusLabel: New Loan}"
+    },
+    {
+      "ts": "2026-04-06T18:36:07.953Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.succeeded {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, count: 0}"
+    },
+    {
+      "ts": "2026-04-06T18:36:13.245Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.started {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T18:36:13.245Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.started {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T18:36:13.307Z",
+      "type": "action",
+      "action": "click",
+      "by": "text",
+      "value": "Last update:"
+    },
+    {
+      "ts": "2026-04-06T18:36:13.965Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.succeeded {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, count: 0}"
+    },
+    {
+      "ts": "2026-04-06T18:36:14.413Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.dataset_counts {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, definitionsTotal: 1, nodesTotal: 10, transitionsTotal: 10, instancesTotal: 26}"
+    },
+    {
+      "ts": "2026-04-06T18:36:14.414Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.matching {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, activeFlowId: 935DF973-812F-F111-9A49-6045BDF0582E, flowNodes: 6, flowTransitions: 7, instanceId: C3801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T18:36:14.414Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.succeeded {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, flowName: E2E_Loan workflow, nodeCount: 6, edgeCount: 7, currentStatusLabel: New Loan}"
+    },
+    {
+      "ts": "2026-04-06T18:36:21.317Z",
+      "type": "summary",
+      "url": "http://127.0.0.1:4176/",
+      "successSeen": true,
+      "reactFlowSizingWarnings": 0,
+      "alerts": []
+    }
+  ]
+}

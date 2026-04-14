@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:uipath="http://uipath.org/schema/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="x-uipath-initial-diagram" targetNamespace="http://www.omg.org/spec/BPMN/20100524/MODEL" exporter="UiPath (https://bpmn.uipath.com)" exporterVersion="a0f9348b">
+  <bpmn:process id="Process_1" name="Process" isExecutable="false">
+    <bpmn:documentation>Under Writing Flow </bpmn:documentation>
+    <bpmn:extensionElements>
+      <uipath:variables version="v1">
+        <uipath:inputOutput id="error6" name="Error" type="jsonSchema" elementId="Activity_3yzF8H"><![CDATA[{"type":"object","properties":{"code":{"type":"string"},"message":{"type":"string"},"detail":{"type":"string"},"category":{"type":"string"},"status":{"type":"number"},"element":{"type":"string"}}}]]></uipath:inputOutput>
+        <uipath:inputOutput id="error7" name="Error" type="jsonSchema" elementId="Activity_1c48P5"><![CDATA[{"type":"object","properties":{"code":{"type":"string"},"message":{"type":"string"},"detail":{"type":"string"},"category":{"type":"string"},"status":{"type":"number"},"element":{"type":"string"}}}]]></uipath:inputOutput>
+        <uipath:inputOutput id="error8" name="Error" type="jsonSchema" elementId="Activity_TIF13F"><![CDATA[{"type":"object","properties":{"code":{"type":"string"},"message":{"type":"string"},"detail":{"type":"string"},"category":{"type":"string"},"status":{"type":"number"},"element":{"type":"string"}}}]]></uipath:inputOutput>
+        <uipath:inputOutput id="error9" name="Error" type="jsonSchema" elementId="Activity_b6S7wY"><![CDATA[{"type":"object","properties":{"code":{"type":"string"},"message":{"type":"string"},"detail":{"type":"string"},"category":{"type":"string"},"status":{"type":"number"},"element":{"type":"string"}}}]]></uipath:inputOutput>
+      </uipath:variables>
+      <uipath:bindings version="v1">
+        <uipath:binding id="bS1eAsYcj" name="folderPath" type="string" resource="process" resourceSubType="Agent" resourceKey="Executive_Summary_Collateral_Agent1" propertyAttribute="folderPath" />
+        <uipath:binding id="b2wpeLNZ6" name="name" type="string" default="Executive_Summary_Agent" resource="process" resourceSubType="Agent" resourceKey="Executive_Summary_Collateral_Agent1" propertyAttribute="name" />
+        <uipath:binding id="bB7QxvkHM" name="folderPath" type="string" resource="process" resourceKey="RPA Workflow" propertyAttribute="folderPath" />
+        <uipath:binding id="bCsF9A5ZP" name="name" type="string" default="RPA Workflow" resource="process" resourceKey="RPA Workflow" propertyAttribute="name" />
+        <uipath:binding id="brSEHcZcf" name="folderPath" type="string" resource="process" resourceSubType="Agent" resourceKey="Collateral_Agent1" propertyAttribute="folderPath" />
+        <uipath:binding id="beoHFjP8v" name="name" type="string" default="Collateral_Agent1" resource="process" resourceSubType="Agent" resourceKey="Collateral_Agent1" propertyAttribute="name" />
+        <uipath:binding id="b2suZ5Q7d" name="folderPath" type="string" resource="process" resourceSubType="Agent" resourceKey="Agent 1" propertyAttribute="folderPath" />
+        <uipath:binding id="bg5XxfFR9" name="name" type="string" default="Agent 1" resource="process" resourceSubType="Agent" resourceKey="Agent 1" propertyAttribute="name" />
+        <uipath:binding id="bTIxwQmY3" name="folderPath" type="string" resource="process" resourceSubType="Agent" resourceKey="Executive_Summary_Collateral_Agent1" propertyAttribute="folderPath" />
+        <uipath:binding id="b8noRyMbp" name="folderPath" type="string" resource="process" resourceSubType="Agent" resourceKey="Financial_Analysis_Collateral_Agent1" propertyAttribute="folderPath" />
+        <uipath:binding id="bidUjAiG0" name="name" type="string" default="Financial_Analysis_Agent" resource="process" resourceSubType="Agent" resourceKey="Financial_Analysis_Collateral_Agent1" propertyAttribute="name" />
+        <uipath:binding id="bD6NmnHQn" name="folderPath" type="string" resource="process" resourceSubType="Agent" resourceKey="Collateral_Collateral_Agent1" propertyAttribute="folderPath" />
+        <uipath:binding id="bNKTkk8Ma" name="name" type="string" default="Collateral_Agent1" resource="process" resourceSubType="Agent" resourceKey="Collateral_Collateral_Agent1" propertyAttribute="name" />
+        <uipath:binding id="bkZOzPU99" name="folderPath" type="string" resource="process" resourceSubType="Agent" resourceKey="Covenants_Collateral_Agent1" propertyAttribute="folderPath" />
+        <uipath:binding id="bsbQPaz24" name="name" type="string" default="Covenants_Agent" resource="process" resourceSubType="Agent" resourceKey="Covenants_Collateral_Agent1" propertyAttribute="name" />
+        <uipath:binding id="bAUOBAhCQ" name="folderPath" type="string" resource="process" resourceSubType="Agent" resourceKey="Collateral_Agent1" propertyAttribute="folderPath" />
+      </uipath:bindings>
+      <uipath:migrationVersion version="11.5" />
+    </bpmn:extensionElements>
+    <bpmn:subProcess id="Activity_3yzF8H" name="Loan Package Intake">
+      <bpmn:documentation>A Loan package is received and files are stored in the archive bucket.</bpmn:documentation>
+      <bpmn:extensionElements>
+        <uipath:mapping version="v1">
+          <uipath:type value="BPMN.Variables" version="v1" />
+          <uipath:output name="Error" type="jsonSchema" source="=Error" var="error6" />
+        </uipath:mapping>
+        <uipath:variables version="v1" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>edge_hNmGeC</bpmn:incoming>
+      <bpmn:outgoing>edge_tsZPTB</bpmn:outgoing>
+      <bpmn:startEvent id="Event_vJYfPu" name="Update Step">
+        <bpmn:documentation>Status of Loan is moved to Ingesting</bpmn:documentation>
+        <bpmn:outgoing>edge_IPl9eQ</bpmn:outgoing>
+      </bpmn:startEvent>
+      <bpmn:task id="Activity_AlkxlK" name="Save Loan Package">
+        <bpmn:documentation>Files saved in loan package bucket (static for demo)</bpmn:documentation>
+        <bpmn:incoming>edge_IPl9eQ</bpmn:incoming>
+        <bpmn:outgoing>edge_Activity_AlkxlK-Activity_GkaxRC</bpmn:outgoing>
+      </bpmn:task>
+      <bpmn:task id="Activity_GkaxRC" name="Index Loan Package">
+        <bpmn:documentation>Loan package is ingested into agent context index (static for demo)</bpmn:documentation>
+        <bpmn:incoming>edge_Activity_AlkxlK-Activity_GkaxRC</bpmn:incoming>
+        <bpmn:outgoing>edge_R3U2SJ</bpmn:outgoing>
+      </bpmn:task>
+      <bpmn:endEvent id="Event_VAX553" name="">
+        <bpmn:incoming>edge_R3U2SJ</bpmn:incoming>
+      </bpmn:endEvent>
+      <bpmn:sequenceFlow id="edge_IPl9eQ" sourceRef="Event_vJYfPu" targetRef="Activity_AlkxlK" />
+      <bpmn:sequenceFlow id="edge_Activity_AlkxlK-Activity_GkaxRC" sourceRef="Activity_AlkxlK" targetRef="Activity_GkaxRC" />
+      <bpmn:sequenceFlow id="edge_R3U2SJ" sourceRef="Activity_GkaxRC" targetRef="Event_VAX553" />
+    </bpmn:subProcess>
+    <bpmn:subProcess id="Activity_1c48P5" name="Draft Credit Memo">
+      <bpmn:documentation>Agents generate sections of the credit memo page and store in the agent actions for review</bpmn:documentation>
+      <bpmn:extensionElements>
+        <uipath:mapping version="v1">
+          <uipath:type value="BPMN.Variables" version="v1" />
+          <uipath:output name="Error" type="jsonSchema" source="=Error" var="error7" />
+        </uipath:mapping>
+        <uipath:variables version="v1" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>edge_7hQcos</bpmn:incoming>
+      <bpmn:incoming>edge_4N3gCI</bpmn:incoming>
+      <bpmn:incoming>edge_oLdj6W</bpmn:incoming>
+      <bpmn:outgoing>edge_66ysrZ</bpmn:outgoing>
+      <bpmn:parallelGateway id="Gateway_jomLG8" name="Start Research Agents">
+        <bpmn:incoming>edge_gCIGS6</bpmn:incoming>
+        <bpmn:outgoing>edge_Gateway_jomLG8-Activity_ExZBknYjeNBU</bpmn:outgoing>
+        <bpmn:outgoing>edge_Gateway_jomLG8-Activity_GTVJ5pd09URz</bpmn:outgoing>
+        <bpmn:outgoing>edge_Gateway_jomLG8-Activity_taa0LuqDivic</bpmn:outgoing>
+        <bpmn:outgoing>edge_Gateway_jomLG8-Activity_gfBO7LcRjM4V</bpmn:outgoing>
+        <bpmn:outgoing>edge_Gateway_jomLG8-Activity_1XhSan2LOjei</bpmn:outgoing>
+        <bpmn:outgoing>edge_Gateway_jomLG8-Activity_GUcG8QLYCAnI</bpmn:outgoing>
+        <bpmn:outgoing>edge_Gateway_jomLG8-Activity_lZ31lY</bpmn:outgoing>
+        <bpmn:outgoing>edge_Gateway_jomLG8-Activity_sMo4fm</bpmn:outgoing>
+      </bpmn:parallelGateway>
+      <bpmn:task id="Activity_ExZBkn" name="Executive Summary Agent">
+        <bpmn:incoming>edge_Gateway_jomLG8-Activity_ExZBknYjeNBU</bpmn:incoming>
+        <bpmn:outgoing>edge_Activity_ExZBkn-Event_JL5mAx</bpmn:outgoing>
+      </bpmn:task>
+      <bpmn:task id="Activity_GTVJ5p" name="Financial Analysis Agent">
+        <bpmn:incoming>edge_Gateway_jomLG8-Activity_GTVJ5pd09URz</bpmn:incoming>
+        <bpmn:outgoing>edge_Activity_GTVJ5p-Event_jhUv9E</bpmn:outgoing>
+      </bpmn:task>
+      <bpmn:task id="Activity_taa0Lu" name="Collateral Agent">
+        <bpmn:incoming>edge_Gateway_jomLG8-Activity_taa0LuqDivic</bpmn:incoming>
+        <bpmn:outgoing>edge_Activity_taa0Lu-Event_DM7LdM</bpmn:outgoing>
+      </bpmn:task>
+      <bpmn:task id="Activity_gfBO7L" name="Covenants Agent">
+        <bpmn:incoming>edge_Gateway_jomLG8-Activity_gfBO7LcRjM4V</bpmn:incoming>
+        <bpmn:outgoing>edge_Activity_gfBO7L-Event_OOndfk</bpmn:outgoing>
+      </bpmn:task>
+      <bpmn:task id="Activity_1XhSan" name="Risk/Strength Analysis Agent ">
+        <bpmn:incoming>edge_Gateway_jomLG8-Activity_1XhSan2LOjei</bpmn:incoming>
+        <bpmn:outgoing>edge_Activity_1XhSan-Event_7obwki</bpmn:outgoing>
+      </bpmn:task>
+      <bpmn:task id="Activity_GUcG8Q" name="Risk Rating (RAC) Agent">
+        <bpmn:incoming>edge_Gateway_jomLG8-Activity_GUcG8QLYCAnI</bpmn:incoming>
+        <bpmn:outgoing>edge_Activity_GUcG8Q-Event_x5l0P6</bpmn:outgoing>
+      </bpmn:task>
+      <bpmn:intermediateThrowEvent id="Event_JL5mAx" name="Update Task">
+        <bpmn:documentation>Agent task updated with output</bpmn:documentation>
+        <bpmn:incoming>edge_Activity_ExZBkn-Event_JL5mAx</bpmn:incoming>
+        <bpmn:outgoing>edge_n9BTok</bpmn:outgoing>
+      </bpmn:intermediateThrowEvent>
+      <bpmn:intermediateThrowEvent id="Event_jhUv9E" name="Update Task">
+        <bpmn:documentation>Agent task updated with output</bpmn:documentation>
+        <bpmn:incoming>edge_Activity_GTVJ5p-Event_jhUv9E</bpmn:incoming>
+        <bpmn:outgoing>edge_0L3Tyi</bpmn:outgoing>
+      </bpmn:intermediateThrowEvent>
+      <bpmn:intermediateThrowEvent id="Event_DM7LdM" name="Update Task">
+        <bpmn:documentation>Agent task updated with output</bpmn:documentation>
+        <bpmn:incoming>edge_Activity_taa0Lu-Event_DM7LdM</bpmn:incoming>
+        <bpmn:outgoing>edge_EpvFGK</bpmn:outgoing>
+      </bpmn:intermediateThrowEvent>
+      <bpmn:intermediateThrowEvent id="Event_OOndfk" name="Update Task">
+        <bpmn:documentation>Agent task updated with output</bpmn:documentation>
+        <bpmn:incoming>edge_Activity_gfBO7L-Event_OOndfk</bpmn:incoming>
+        <bpmn:outgoing>edge_wT6hXc</bpmn:outgoing>
+      </bpmn:intermediateThrowEvent>
+      <bpmn:intermediateThrowEvent id="Event_7obwki" name="Update Task">
+        <bpmn:documentation>Agent task updated with output</bpmn:documentation>
+        <bpmn:incoming>edge_Activity_1XhSan-Event_7obwki</bpmn:incoming>
+        <bpmn:outgoing>edge_rJR7iB</bpmn:outgoing>
+      </bpmn:intermediateThrowEvent>
+      <bpmn:intermediateThrowEvent id="Event_x5l0P6" name="Update Task">
+        <bpmn:documentation>Agent task updated with output</bpmn:documentation>
+        <bpmn:incoming>edge_Activity_GUcG8Q-Event_x5l0P6</bpmn:incoming>
+        <bpmn:outgoing>edge_RzECCV</bpmn:outgoing>
+      </bpmn:intermediateThrowEvent>
+      <bpmn:task id="Activity_OaKi7v" name="Draft Credit Memo">
+        <bpmn:documentation>Credit memo is drafted combining the agent task fields</bpmn:documentation>
+        <bpmn:incoming>edge_zqBWN2</bpmn:incoming>
+        <bpmn:outgoing>edge_diM46d</bpmn:outgoing>
+      </bpmn:task>
+      <bpmn:parallelGateway id="Gateway_qYyEm5">
+        <bpmn:incoming>edge_n9BTok</bpmn:incoming>
+        <bpmn:incoming>edge_0L3Tyi</bpmn:incoming>
+        <bpmn:incoming>edge_EpvFGK</bpmn:incoming>
+        <bpmn:incoming>edge_wT6hXc</bpmn:incoming>
+        <bpmn:incoming>edge_rJR7iB</bpmn:incoming>
+        <bpmn:incoming>edge_RzECCV</bpmn:incoming>
+        <bpmn:incoming>edge_SNstBW</bpmn:incoming>
+        <bpmn:incoming>edge_y69CrS</bpmn:incoming>
+        <bpmn:outgoing>edge_zqBWN2</bpmn:outgoing>
+      </bpmn:parallelGateway>
+      <bpmn:endEvent id="Event_NyOMWh" name="">
+        <bpmn:incoming>edge_diM46d</bpmn:incoming>
+      </bpmn:endEvent>
+      <bpmn:startEvent id="Event_xaO7vW" name="Update Step">
+        <bpmn:documentation>Update status to Draft Credit Memo</bpmn:documentation>
+        <bpmn:outgoing>edge_gCIGS6</bpmn:outgoing>
+      </bpmn:startEvent>
+      <bpmn:task id="Activity_lZ31lY" name="Relationship Summary">
+        <bpmn:incoming>edge_Gateway_jomLG8-Activity_lZ31lY</bpmn:incoming>
+        <bpmn:outgoing>edge_Activity_lZ31lY-Event_fLMFbt</bpmn:outgoing>
+      </bpmn:task>
+      <bpmn:task id="Activity_sMo4fm" name="Industry Search">
+        <bpmn:incoming>edge_Gateway_jomLG8-Activity_sMo4fm</bpmn:incoming>
+        <bpmn:outgoing>edge_Activity_sMo4fm-Event_a6hTUp</bpmn:outgoing>
+      </bpmn:task>
+      <bpmn:intermediateThrowEvent id="Event_fLMFbt" name="Update Task">
+        <bpmn:documentation>Agent task updated with output</bpmn:documentation>
+        <bpmn:incoming>edge_Activity_lZ31lY-Event_fLMFbt</bpmn:incoming>
+        <bpmn:outgoing>edge_SNstBW</bpmn:outgoing>
+      </bpmn:intermediateThrowEvent>
+      <bpmn:intermediateThrowEvent id="Event_a6hTUp" name="Update Task">
+        <bpmn:documentation>Agent task updated with output</bpmn:documentation>
+        <bpmn:incoming>edge_Activity_sMo4fm-Event_a6hTUp</bpmn:incoming>
+        <bpmn:outgoing>edge_y69CrS</bpmn:outgoing>
+      </bpmn:intermediateThrowEvent>
+      <bpmn:sequenceFlow id="edge_Activity_ExZBkn-Event_JL5mAx" sourceRef="Activity_ExZBkn" targetRef="Event_JL5mAx" />
+      <bpmn:sequenceFlow id="edge_Activity_GTVJ5p-Event_jhUv9E" sourceRef="Activity_GTVJ5p" targetRef="Event_jhUv9E" />
+      <bpmn:sequenceFlow id="edge_Activity_taa0Lu-Event_DM7LdM" sourceRef="Activity_taa0Lu" targetRef="Event_DM7LdM" />
+      <bpmn:sequenceFlow id="edge_Activity_gfBO7L-Event_OOndfk" sourceRef="Activity_gfBO7L" targetRef="Event_OOndfk" />
+      <bpmn:sequenceFlow id="edge_Activity_1XhSan-Event_7obwki" sourceRef="Activity_1XhSan" targetRef="Event_7obwki" />
+      <bpmn:sequenceFlow id="edge_Activity_GUcG8Q-Event_x5l0P6" sourceRef="Activity_GUcG8Q" targetRef="Event_x5l0P6" />
+      <bpmn:sequenceFlow id="edge_n9BTok" sourceRef="Event_JL5mAx" targetRef="Gateway_qYyEm5" />
+      <bpmn:sequenceFlow id="edge_0L3Tyi" sourceRef="Event_jhUv9E" targetRef="Gateway_qYyEm5" />
+      <bpmn:sequenceFlow id="edge_EpvFGK" sourceRef="Event_DM7LdM" targetRef="Gateway_qYyEm5" />
+      <bpmn:sequenceFlow id="edge_wT6hXc" sourceRef="Event_OOndfk" targetRef="Gateway_qYyEm5" />
+      <bpmn:sequenceFlow id="edge_rJR7iB" sourceRef="Event_7obwki" targetRef="Gateway_qYyEm5" />
+      <bpmn:sequenceFlow id="edge_RzECCV" sourceRef="Event_x5l0P6" targetRef="Gateway_qYyEm5" />
+      <bpmn:sequenceFlow id="edge_zqBWN2" sourceRef="Gateway_qYyEm5" targetRef="Activity_OaKi7v" />
+      <bpmn:sequenceFlow id="edge_diM46d" sourceRef="Activity_OaKi7v" targetRef="Event_NyOMWh" />
+      <bpmn:sequenceFlow id="edge_Gateway_jomLG8-Activity_ExZBknYjeNBU" sourceRef="Gateway_jomLG8" targetRef="Activity_ExZBkn" />
+      <bpmn:sequenceFlow id="edge_Gateway_jomLG8-Activity_GTVJ5pd09URz" sourceRef="Gateway_jomLG8" targetRef="Activity_GTVJ5p" />
+      <bpmn:sequenceFlow id="edge_Gateway_jomLG8-Activity_taa0LuqDivic" sourceRef="Gateway_jomLG8" targetRef="Activity_taa0Lu" />
+      <bpmn:sequenceFlow id="edge_Gateway_jomLG8-Activity_gfBO7LcRjM4V" sourceRef="Gateway_jomLG8" targetRef="Activity_gfBO7L" />
+      <bpmn:sequenceFlow id="edge_Gateway_jomLG8-Activity_1XhSan2LOjei" sourceRef="Gateway_jomLG8" targetRef="Activity_1XhSan" />
+      <bpmn:sequenceFlow id="edge_Gateway_jomLG8-Activity_GUcG8QLYCAnI" sourceRef="Gateway_jomLG8" targetRef="Activity_GUcG8Q" />
+      <bpmn:sequenceFlow id="edge_gCIGS6" sourceRef="Event_xaO7vW" targetRef="Gateway_jomLG8" />
+      <bpmn:sequenceFlow id="edge_Gateway_jomLG8-Activity_lZ31lY" sourceRef="Gateway_jomLG8" targetRef="Activity_lZ31lY" />
+      <bpmn:sequenceFlow id="edge_Gateway_jomLG8-Activity_sMo4fm" sourceRef="Gateway_jomLG8" targetRef="Activity_sMo4fm" />
+      <bpmn:sequenceFlow id="edge_Activity_lZ31lY-Event_fLMFbt" sourceRef="Activity_lZ31lY" targetRef="Event_fLMFbt" />
+      <bpmn:sequenceFlow id="edge_Activity_sMo4fm-Event_a6hTUp" sourceRef="Activity_sMo4fm" targetRef="Event_a6hTUp" />
+      <bpmn:sequenceFlow id="edge_SNstBW" sourceRef="Event_fLMFbt" targetRef="Gateway_qYyEm5" />
+      <bpmn:sequenceFlow id="edge_y69CrS" sourceRef="Event_a6hTUp" targetRef="Gateway_qYyEm5" />
+    </bpmn:subProcess>
+    <bpmn:intermediateThrowEvent id="Event_636wvt" name="Create Agent Tasks">
+      <bpmn:documentation>A task is created for each agent in the next step, with a title corresponding to the agent's defined goal</bpmn:documentation>
+      <bpmn:incoming>edge_tsZPTB</bpmn:incoming>
+      <bpmn:outgoing>edge_7hQcos</bpmn:outgoing>
+    </bpmn:intermediateThrowEvent>
+    <bpmn:subProcess id="Activity_TIF13F" name="Underwriter Review">
+      <bpmn:extensionElements>
+        <uipath:mapping version="v1">
+          <uipath:type value="BPMN.Variables" version="v1" />
+          <uipath:output name="Error" type="jsonSchema" source="=Error" var="error8" />
+        </uipath:mapping>
+        <uipath:variables version="v1" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>edge_66ysrZ</bpmn:incoming>
+      <bpmn:outgoing>edge_oZO7dU</bpmn:outgoing>
+      <bpmn:outgoing>edge_4N3gCI</bpmn:outgoing>
+      <bpmn:startEvent id="Event_hcyfIL" name="Update Step">
+        <bpmn:documentation>Status of loan is set to underwriter review</bpmn:documentation>
+        <bpmn:outgoing>edge_Event_hcyfIL-Activity_U6vn1V</bpmn:outgoing>
+      </bpmn:startEvent>
+      <bpmn:task id="Activity_U6vn1V" name="Review Draft Credit Memo">
+        <bpmn:documentation>Underwriter reviews the drafted credit memo, and approves, corrects, or provides feedback for another agent iteration</bpmn:documentation>
+        <bpmn:incoming>edge_Event_hcyfIL-Activity_U6vn1V</bpmn:incoming>
+        <bpmn:outgoing>edge_Activity_U6vn1V-Event_jiMK9c</bpmn:outgoing>
+        <bpmn:outgoing>edge_FwuNt2</bpmn:outgoing>
+      </bpmn:task>
+      <bpmn:endEvent id="Event_jiMK9c" name="Update Step">
+        <bpmn:documentation>Send the draft credit memo to the manager to review</bpmn:documentation>
+        <bpmn:incoming>edge_Activity_U6vn1V-Event_jiMK9c</bpmn:incoming>
+      </bpmn:endEvent>
+      <bpmn:endEvent id="Event_pmJH0S" name="Update Step">
+        <bpmn:documentation>Send the Draft Credit Memo back through the agent loop</bpmn:documentation>
+        <bpmn:incoming>edge_FwuNt2</bpmn:incoming>
+      </bpmn:endEvent>
+      <bpmn:sequenceFlow id="edge_Event_hcyfIL-Activity_U6vn1V" sourceRef="Event_hcyfIL" targetRef="Activity_U6vn1V" />
+      <bpmn:sequenceFlow id="edge_Activity_U6vn1V-Event_jiMK9c" name="Approved" sourceRef="Activity_U6vn1V" targetRef="Event_jiMK9c" />
+      <bpmn:sequenceFlow id="edge_FwuNt2" name="Revisions" sourceRef="Activity_U6vn1V" targetRef="Event_pmJH0S" />
+    </bpmn:subProcess>
+    <bpmn:subProcess id="Activity_b6S7wY" name="Manager Review">
+      <bpmn:extensionElements>
+        <uipath:mapping version="v1">
+          <uipath:type value="BPMN.Variables" version="v1" />
+          <uipath:output name="Error" type="jsonSchema" source="=Error" var="error9" />
+        </uipath:mapping>
+        <uipath:variables version="v1" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>edge_oZO7dU</bpmn:incoming>
+      <bpmn:outgoing>edge_oLdj6W</bpmn:outgoing>
+      <bpmn:outgoing>edge_Activity_b6S7wY-Event_ap64on</bpmn:outgoing>
+      <bpmn:endEvent id="Event_UQP4Xa" name="Update Step">
+        <bpmn:documentation>Approved and send forward for entry into salesforce</bpmn:documentation>
+        <bpmn:incoming>edge_zoN8aa</bpmn:incoming>
+      </bpmn:endEvent>
+      <bpmn:endEvent id="Event_Mik9hN" name="Update Step">
+        <bpmn:documentation>Send memo back through agent loop</bpmn:documentation>
+        <bpmn:incoming>edge_vpRk5k</bpmn:incoming>
+      </bpmn:endEvent>
+      <bpmn:startEvent id="Event_542cTb" name="Update Step">
+        <bpmn:documentation>Set loan entity status to Manager Review</bpmn:documentation>
+        <bpmn:outgoing>edge_Event_542cTb-Activity_olGzJD</bpmn:outgoing>
+      </bpmn:startEvent>
+      <bpmn:task id="Activity_olGzJD" name="Review Draft Credit Memo">
+        <bpmn:documentation>Manager reviews credit memo submission from the underwriter</bpmn:documentation>
+        <bpmn:incoming>edge_Event_542cTb-Activity_olGzJD</bpmn:incoming>
+        <bpmn:outgoing>edge_vpRk5k</bpmn:outgoing>
+        <bpmn:outgoing>edge_zoN8aa</bpmn:outgoing>
+      </bpmn:task>
+      <bpmn:sequenceFlow id="edge_Event_542cTb-Activity_olGzJD" sourceRef="Event_542cTb" targetRef="Activity_olGzJD" />
+      <bpmn:sequenceFlow id="edge_vpRk5k" name="Revisions" sourceRef="Activity_olGzJD" targetRef="Event_Mik9hN" />
+      <bpmn:sequenceFlow id="edge_zoN8aa" name="Approved" sourceRef="Activity_olGzJD" targetRef="Event_UQP4Xa" />
+    </bpmn:subProcess>
+    <bpmn:startEvent id="Event_kz30dw" name="New Loan Received">
+      <bpmn:documentation>New loan is received, loan object is created in data fabric</bpmn:documentation>
+      <bpmn:extensionElements>
+        <uipath:entryPointId value="2c8c68fb-42a4-4c2f-bfc0-72d97b7e68f2" />
+      </bpmn:extensionElements>
+      <bpmn:outgoing>edge_hNmGeC</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:endEvent id="Event_I3j69D" name="Mark Complete">
+      <bpmn:documentation>Loan is marked complete</bpmn:documentation>
+      <bpmn:incoming>edge_2wX59X</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:task id="Activity_VeXsDq" name="Save Memo to Saleesforce">
+      <bpmn:documentation>Save the loan into salesforce</bpmn:documentation>
+      <bpmn:incoming>edge_SfCa5s</bpmn:incoming>
+      <bpmn:outgoing>edge_Activity_VeXsDq-Activity_ateoEp</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Activity_ateoEp" name="Setting the Salesforce Flag in Salesforce">
+      <bpmn:documentation>Sets flag for finished loan to be approved</bpmn:documentation>
+      <bpmn:incoming>edge_Activity_VeXsDq-Activity_ateoEp</bpmn:incoming>
+      <bpmn:outgoing>edge_2wX59X</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:intermediateThrowEvent id="Event_ap64on" name="Update Step">
+      <bpmn:documentation>Mark loan entity status to Processing Approved Loan</bpmn:documentation>
+      <bpmn:incoming>edge_Activity_b6S7wY-Event_ap64on</bpmn:incoming>
+      <bpmn:outgoing>edge_SfCa5s</bpmn:outgoing>
+    </bpmn:intermediateThrowEvent>
+    <bpmn:sequenceFlow id="edge_66ysrZ" sourceRef="Activity_1c48P5" targetRef="Activity_TIF13F" />
+    <bpmn:sequenceFlow id="edge_oZO7dU" sourceRef="Activity_TIF13F" targetRef="Activity_b6S7wY" />
+    <bpmn:sequenceFlow id="edge_7hQcos" sourceRef="Event_636wvt" targetRef="Activity_1c48P5" />
+    <bpmn:sequenceFlow id="edge_hNmGeC" sourceRef="Event_kz30dw" targetRef="Activity_3yzF8H" />
+    <bpmn:sequenceFlow id="edge_4N3gCI" name="Revisions" sourceRef="Activity_TIF13F" targetRef="Activity_1c48P5" />
+    <bpmn:sequenceFlow id="edge_oLdj6W" name="Revisions" sourceRef="Activity_b6S7wY" targetRef="Activity_1c48P5" />
+    <bpmn:sequenceFlow id="edge_Activity_VeXsDq-Activity_ateoEp" sourceRef="Activity_VeXsDq" targetRef="Activity_ateoEp" />
+    <bpmn:sequenceFlow id="edge_2wX59X" sourceRef="Activity_ateoEp" targetRef="Event_I3j69D" />
+    <bpmn:sequenceFlow id="edge_Activity_b6S7wY-Event_ap64on" sourceRef="Activity_b6S7wY" targetRef="Event_ap64on" />
+    <bpmn:sequenceFlow id="edge_SfCa5s" sourceRef="Event_ap64on" targetRef="Activity_VeXsDq" />
+    <bpmn:sequenceFlow id="edge_tsZPTB" sourceRef="Activity_3yzF8H" targetRef="Event_636wvt" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_1">
+      <bpmndi:BPMNShape id="S_Activity_3yzF8H" bpmnElement="Activity_3yzF8H" isExpanded="true">
+        <dc:Bounds x="-774.1525172503495" y="-755.8236914621777" width="524" height="162" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="-774.1525172503495" y="-588.8236914621777" width="524" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_vJYfPu" bpmnElement="Event_vJYfPu">
+        <dc:Bounds x="-733.5868525066417" y="-687.0853102311918" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="-733.5868525066417" y="-646.0853102311918" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Activity_AlkxlK" bpmnElement="Activity_AlkxlK">
+        <dc:Bounds x="-643.7152260877465" y="-709.0853102311918" width="100" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="-643.7152260877465" y="-624.0853102311918" width="100" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Activity_GkaxRC" bpmnElement="Activity_GkaxRC">
+        <dc:Bounds x="-507.5081451581116" y="-709.0853102311918" width="100" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="-507.5081451581116" y="-624.0853102311918" width="100" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_VAX553" bpmnElement="Event_VAX553">
+        <dc:Bounds x="-347.3685961886734" y="-687.0853102311918" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="-347.3685961886734" y="-646.0853102311918" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Activity_1c48P5" bpmnElement="Activity_1c48P5" isExpanded="true">
+        <dc:Bounds x="42.8382309506688" y="-765.6200905787875" width="879" height="993" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="42.8382309506688" y="232.37990942121246" width="879" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Gateway_jomLG8" bpmnElement="Gateway_jomLG8">
+        <dc:Bounds x="248.40502869096127" y="-647.4091996058702" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="248.40502869096127" y="-592.4091996058702" width="50" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Activity_ExZBkn" bpmnElement="Activity_ExZBkn">
+        <dc:Bounds x="347.4479898411195" y="-662.4091996058702" width="100" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="347.4479898411195" y="-577.4091996058702" width="100" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Activity_GTVJ5p" bpmnElement="Activity_GTVJ5p">
+        <dc:Bounds x="347.4479898411195" y="-564.3232773055537" width="100" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="347.4479898411195" y="-479.3232773055537" width="100" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Activity_taa0Lu" bpmnElement="Activity_taa0Lu">
+        <dc:Bounds x="347.4479898411195" y="-463.10847155476233" width="100" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="347.4479898411195" y="-378.10847155476233" width="100" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Activity_gfBO7L" bpmnElement="Activity_gfBO7L">
+        <dc:Bounds x="347.4479898411195" y="-365.0225492544457" width="100" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="347.4479898411195" y="-280.0225492544457" width="100" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Activity_1XhSan" bpmnElement="Activity_1XhSan">
+        <dc:Bounds x="347.4479898411195" y="-267.9795881042875" width="100" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="347.4479898411195" y="-182.97958810428747" width="100" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Activity_GUcG8Q" bpmnElement="Activity_GUcG8Q">
+        <dc:Bounds x="347.4479898411195" y="-171.9795881042876" width="100" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="347.4479898411195" y="-86.97958810428759" width="100" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_JL5mAx" bpmnElement="Event_JL5mAx">
+        <dc:Bounds x="495.4479898411195" y="-640.4091996058702" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="495.4479898411195" y="-599.4091996058702" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_jhUv9E" bpmnElement="Event_jhUv9E">
+        <dc:Bounds x="495.4479898411195" y="-542.3232773055537" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="495.4479898411195" y="-501.3232773055537" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_DM7LdM" bpmnElement="Event_DM7LdM">
+        <dc:Bounds x="495.4479898411195" y="-441.10847155476233" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="495.4479898411195" y="-400.10847155476233" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_OOndfk" bpmnElement="Event_OOndfk">
+        <dc:Bounds x="495.4479898411195" y="-343.0225492544457" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="495.4479898411195" y="-302.0225492544457" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_7obwki" bpmnElement="Event_7obwki">
+        <dc:Bounds x="495.4479898411195" y="-245.97958810428747" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="495.4479898411195" y="-204.97958810428747" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_x5l0P6" bpmnElement="Event_x5l0P6">
+        <dc:Bounds x="495.4479898411195" y="-149.9795881042876" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="495.4479898411195" y="-108.97958810428759" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Activity_OaKi7v" bpmnElement="Activity_OaKi7v">
+        <dc:Bounds x="679.1790513101244" y="-662.4091996058702" width="100" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="679.1790513101244" y="-577.4091996058702" width="100" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Gateway_qYyEm5" bpmnElement="Gateway_qYyEm5">
+        <dc:Bounds x="583.1955578917654" y="-647.4091996058702" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="583.1955578917654" y="-592.4091996058702" width="50" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_NyOMWh" bpmnElement="Event_NyOMWh">
+        <dc:Bounds x="833.2055058786417" y="-640.4091996058702" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="833.2055058786417" y="-599.4091996058702" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_xaO7vW" bpmnElement="Event_xaO7vW">
+        <dc:Bounds x="118.47037279969554" y="-640.4091996058702" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="118.47037279969554" y="-599.4091996058702" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Activity_lZ31lY" bpmnElement="Activity_lZ31lY">
+        <dc:Bounds x="347.4479898411195" y="0.6277852059675979" width="100" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="347.4479898411195" y="85.6277852059676" width="100" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Activity_sMo4fm" bpmnElement="Activity_sMo4fm">
+        <dc:Bounds x="347.4479898411195" y="102.00043858941433" width="100" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="347.4479898411195" y="187.00043858941433" width="100" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_fLMFbt" bpmnElement="Event_fLMFbt">
+        <dc:Bounds x="495.4479898411195" y="22.627785205967598" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="495.4479898411195" y="63.6277852059676" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_a6hTUp" bpmnElement="Event_a6hTUp">
+        <dc:Bounds x="495.4479898411195" y="124.00043858941433" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="495.4479898411195" y="165.00043858941433" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_636wvt" bpmnElement="Event_636wvt">
+        <dc:Bounds x="-145.93786911111778" y="-692.8236914621777" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="-145.93786911111778" y="-651.8236914621777" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Activity_TIF13F" bpmnElement="Activity_TIF13F" isExpanded="true">
+        <dc:Bounds x="1005.0834958813712" y="-760.2865906493768" width="443" height="236" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1005.0834958813712" y="-519.2865906493768" width="443" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_hcyfIL" bpmnElement="Event_hcyfIL">
+        <dc:Bounds x="1051.367692784519" y="-680.5601658745602" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1051.367692784519" y="-639.5601658745602" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Activity_U6vn1V" bpmnElement="Activity_U6vn1V">
+        <dc:Bounds x="1135.367692784519" y="-702.5601658745602" width="100" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1135.367692784519" y="-617.5601658745602" width="100" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_jiMK9c" bpmnElement="Event_jiMK9c">
+        <dc:Bounds x="1366.8045847971803" y="-608.5958465136397" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1366.8045847971803" y="-567.5958465136397" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_pmJH0S" bpmnElement="Event_pmJH0S">
+        <dc:Bounds x="1366.8045847971803" y="-734.6104075357972" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1366.8045847971803" y="-693.6104075357972" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Activity_b6S7wY" bpmnElement="Activity_b6S7wY" isExpanded="true">
+        <dc:Bounds x="1537.9722064516866" y="-762.7865906493768" width="401" height="240" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1537.9722064516866" y="-517.7865906493768" width="401" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_UQP4Xa" bpmnElement="Event_UQP4Xa">
+        <dc:Bounds x="1861.351908119192" y="-627.1854090694956" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1861.351908119192" y="-586.1854090694956" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_Mik9hN" bpmnElement="Event_Mik9hN">
+        <dc:Bounds x="1861.351908119192" y="-730.2548247881713" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1861.351908119192" y="-689.2548247881713" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_542cTb" bpmnElement="Event_542cTb">
+        <dc:Bounds x="1581.2108074839705" y="-687.8717901259672" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1581.2108074839705" y="-646.8717901259672" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Activity_olGzJD" bpmnElement="Activity_olGzJD">
+        <dc:Bounds x="1665.2108074839705" y="-709.8717901259672" width="100" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1665.2108074839705" y="-624.8717901259672" width="100" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_kz30dw" bpmnElement="Event_kz30dw">
+        <dc:Bounds x="-871.2021591959783" y="-692.8236914621777" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="-871.2021591959783" y="-651.8236914621777" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_I3j69D" bpmnElement="Event_I3j69D">
+        <dc:Bounds x="2441.3890953913165" y="-659.7942889607762" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="2441.3890953913165" y="-618.7942889607762" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Activity_VeXsDq" bpmnElement="Activity_VeXsDq">
+        <dc:Bounds x="2106.048409083758" y="-681.7942889607762" width="100" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="2106.048409083758" y="-596.7942889607762" width="100" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Activity_ateoEp" bpmnElement="Activity_ateoEp">
+        <dc:Bounds x="2272.9021411671692" y="-681.7942889607762" width="100" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="2272.9021411671692" y="-596.7942889607762" width="100" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="S_Event_ap64on" bpmnElement="Event_ap64on">
+        <dc:Bounds x="2000.864430092095" y="-660.7865906493768" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="2000.864430092095" y="-619.7865906493768" width="36" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_66ysrZ" bpmnElement="edge_66ysrZ">
+        <di:waypoint x="921.8382309506688" y="-269.12009057878754" />
+        <di:waypoint x="963.46086341602" y="-269.12009057878754" />
+        <di:waypoint x="963.46086341602" y="-642.2865906493768" />
+        <di:waypoint x="1005.0834958813712" y="-642.2865906493768" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_oZO7dU" bpmnElement="edge_oZO7dU">
+        <di:waypoint x="1448.0834958813712" y="-642.2865906493768" />
+        <di:waypoint x="1537.9722064516866" y="-642.7865906493768" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_IPl9eQ" bpmnElement="edge_IPl9eQ">
+        <di:waypoint x="-697.5868525066417" y="-669.0853102311918" />
+        <di:waypoint x="-643.7152260877465" y="-669.0853102311918" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Activity_AlkxlK-Activity_GkaxRC" bpmnElement="edge_Activity_AlkxlK-Activity_GkaxRC">
+        <di:waypoint x="-543.7152260877465" y="-669.0853102311918" />
+        <di:waypoint x="-507.5081451581116" y="-669.0853102311918" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_R3U2SJ" bpmnElement="edge_R3U2SJ">
+        <di:waypoint x="-407.5081451581116" y="-669.0853102311918" />
+        <di:waypoint x="-347.3685961886734" y="-669.0853102311918" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Activity_ExZBkn-Event_JL5mAx" bpmnElement="edge_Activity_ExZBkn-Event_JL5mAx">
+        <di:waypoint x="447.4479898411195" y="-622.4091996058702" />
+        <di:waypoint x="495.4479898411195" y="-622.4091996058702" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Activity_GTVJ5p-Event_jhUv9E" bpmnElement="edge_Activity_GTVJ5p-Event_jhUv9E">
+        <di:waypoint x="447.4479898411195" y="-524.3232773055537" />
+        <di:waypoint x="495.4479898411195" y="-524.3232773055537" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Activity_taa0Lu-Event_DM7LdM" bpmnElement="edge_Activity_taa0Lu-Event_DM7LdM">
+        <di:waypoint x="447.4479898411195" y="-423.10847155476233" />
+        <di:waypoint x="495.4479898411195" y="-423.10847155476233" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Activity_gfBO7L-Event_OOndfk" bpmnElement="edge_Activity_gfBO7L-Event_OOndfk">
+        <di:waypoint x="447.4479898411195" y="-325.0225492544457" />
+        <di:waypoint x="495.4479898411195" y="-325.0225492544457" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Activity_1XhSan-Event_7obwki" bpmnElement="edge_Activity_1XhSan-Event_7obwki">
+        <di:waypoint x="447.4479898411195" y="-227.97958810428747" />
+        <di:waypoint x="495.4479898411195" y="-227.97958810428747" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Activity_GUcG8Q-Event_x5l0P6" bpmnElement="edge_Activity_GUcG8Q-Event_x5l0P6">
+        <di:waypoint x="447.4479898411195" y="-131.9795881042876" />
+        <di:waypoint x="495.4479898411195" y="-131.9795881042876" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_n9BTok" bpmnElement="edge_n9BTok">
+        <di:waypoint x="531.4479898411196" y="-622.4091996058702" />
+        <di:waypoint x="583.1955578917654" y="-622.4091996058702" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_0L3Tyi" bpmnElement="edge_0L3Tyi">
+        <di:waypoint x="531.4479898411196" y="-524.3232773055537" />
+        <di:waypoint x="557.3217738664425" y="-524.3232773055537" />
+        <di:waypoint x="557.3217738664425" y="-622.4091996058702" />
+        <di:waypoint x="583.1955578917654" y="-622.4091996058702" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_EpvFGK" bpmnElement="edge_EpvFGK">
+        <di:waypoint x="531.4479898411196" y="-423.10847155476233" />
+        <di:waypoint x="557.3217738664425" y="-423.10847155476233" />
+        <di:waypoint x="557.3217738664425" y="-622.4091996058702" />
+        <di:waypoint x="583.1955578917654" y="-622.4091996058702" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_wT6hXc" bpmnElement="edge_wT6hXc">
+        <di:waypoint x="531.4479898411196" y="-325.0225492544457" />
+        <di:waypoint x="557.3217738664425" y="-325.0225492544457" />
+        <di:waypoint x="557.3217738664425" y="-622.4091996058702" />
+        <di:waypoint x="583.1955578917654" y="-622.4091996058702" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_rJR7iB" bpmnElement="edge_rJR7iB">
+        <di:waypoint x="531.4479898411196" y="-227.97958810428747" />
+        <di:waypoint x="557.3217738664425" y="-227.97958810428747" />
+        <di:waypoint x="557.3217738664425" y="-622.4091996058702" />
+        <di:waypoint x="583.1955578917654" y="-622.4091996058702" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_RzECCV" bpmnElement="edge_RzECCV">
+        <di:waypoint x="531.4479898411196" y="-131.9795881042876" />
+        <di:waypoint x="557.3217738664425" y="-131.9795881042876" />
+        <di:waypoint x="557.3217738664425" y="-622.4091996058702" />
+        <di:waypoint x="583.1955578917654" y="-622.4091996058702" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_zqBWN2" bpmnElement="edge_zqBWN2">
+        <di:waypoint x="633.1955578917654" y="-622.4091996058702" />
+        <di:waypoint x="679.1790513101244" y="-622.4091996058702" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_diM46d" bpmnElement="edge_diM46d">
+        <di:waypoint x="779.1790513101244" y="-622.4091996058702" />
+        <di:waypoint x="833.2055058786417" y="-622.4091996058702" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Gateway_jomLG8-Activity_ExZBknYjeNBU" bpmnElement="edge_Gateway_jomLG8-Activity_ExZBknYjeNBU">
+        <di:waypoint x="298.4050286909613" y="-622.4091996058702" />
+        <di:waypoint x="347.4479898411195" y="-622.4091996058702" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Gateway_jomLG8-Activity_GTVJ5pd09URz" bpmnElement="edge_Gateway_jomLG8-Activity_GTVJ5pd09URz">
+        <di:waypoint x="273.4050286909613" y="-597.4091996058702" />
+        <di:waypoint x="273.4050286909613" y="-524.3232773055537" />
+        <di:waypoint x="347.4479898411195" y="-524.3232773055537" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Gateway_jomLG8-Activity_taa0LuqDivic" bpmnElement="edge_Gateway_jomLG8-Activity_taa0LuqDivic">
+        <di:waypoint x="273.4050286909613" y="-597.4091996058702" />
+        <di:waypoint x="273.4050286909613" y="-423.10847155476233" />
+        <di:waypoint x="347.4479898411195" y="-423.10847155476233" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Gateway_jomLG8-Activity_gfBO7LcRjM4V" bpmnElement="edge_Gateway_jomLG8-Activity_gfBO7LcRjM4V">
+        <di:waypoint x="273.4050286909613" y="-597.4091996058702" />
+        <di:waypoint x="273.4050286909613" y="-325.0225492544457" />
+        <di:waypoint x="347.4479898411195" y="-325.0225492544457" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Gateway_jomLG8-Activity_1XhSan2LOjei" bpmnElement="edge_Gateway_jomLG8-Activity_1XhSan2LOjei">
+        <di:waypoint x="273.4050286909613" y="-597.4091996058702" />
+        <di:waypoint x="273.4050286909613" y="-227.97958810428747" />
+        <di:waypoint x="347.4479898411195" y="-227.97958810428747" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Gateway_jomLG8-Activity_GUcG8QLYCAnI" bpmnElement="edge_Gateway_jomLG8-Activity_GUcG8QLYCAnI">
+        <di:waypoint x="273.4050286909613" y="-597.4091996058702" />
+        <di:waypoint x="273.4050286909613" y="-131.9795881042876" />
+        <di:waypoint x="347.4479898411195" y="-131.9795881042876" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_7hQcos" bpmnElement="edge_7hQcos">
+        <di:waypoint x="-109.93786911111778" y="-674.8236914621777" />
+        <di:waypoint x="-33.54981908022449" y="-674.8236914621777" />
+        <di:waypoint x="-33.54981908022449" y="-269.12009057878754" />
+        <di:waypoint x="42.8382309506688" y="-269.12009057878754" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Event_hcyfIL-Activity_U6vn1V" bpmnElement="edge_Event_hcyfIL-Activity_U6vn1V">
+        <di:waypoint x="1087.367692784519" y="-662.5601658745602" />
+        <di:waypoint x="1135.367692784519" y="-662.5601658745602" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Activity_U6vn1V-Event_jiMK9c" bpmnElement="edge_Activity_U6vn1V-Event_jiMK9c">
+        <di:waypoint x="1235.367692784519" y="-662.5601658745602" />
+        <di:waypoint x="1301.0861387908496" y="-662.5601658745602" />
+        <di:waypoint x="1301.0861387908496" y="-590.5958465136397" />
+        <di:waypoint x="1366.8045847971803" y="-590.5958465136397" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_hNmGeC" bpmnElement="edge_hNmGeC">
+        <di:waypoint x="-835.2021591959783" y="-674.8236914621777" />
+        <di:waypoint x="-774.1525172503495" y="-674.8236914621777" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_FwuNt2" bpmnElement="edge_FwuNt2">
+        <di:waypoint x="1235.367692784519" y="-662.5601658745602" />
+        <di:waypoint x="1301.0861387908496" y="-662.5601658745602" />
+        <di:waypoint x="1301.0861387908496" y="-716.6104075357972" />
+        <di:waypoint x="1366.8045847971803" y="-716.6104075357972" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_4N3gCI" bpmnElement="edge_4N3gCI">
+        <di:waypoint x="1226.5834958813712" y="-760.2865906493768" />
+        <di:waypoint x="1226.5834958813712" y="-785.6200905787875" />
+        <di:waypoint x="482.3382309506688" y="-785.6200905787875" />
+        <di:waypoint x="482.3382309506688" y="-765.6200905787875" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_gCIGS6" bpmnElement="edge_gCIGS6">
+        <di:waypoint x="154.47037279969555" y="-622.4091996058702" />
+        <di:waypoint x="248.40502869096127" y="-622.4091996058702" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Event_542cTb-Activity_olGzJD" bpmnElement="edge_Event_542cTb-Activity_olGzJD">
+        <di:waypoint x="1617.2108074839705" y="-669.8717901259672" />
+        <di:waypoint x="1665.2108074839705" y="-669.8717901259672" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_vpRk5k" bpmnElement="edge_vpRk5k">
+        <di:waypoint x="1765.2108074839705" y="-669.8717901259672" />
+        <di:waypoint x="1813.2813578015812" y="-669.8717901259672" />
+        <di:waypoint x="1813.2813578015812" y="-712.2548247881713" />
+        <di:waypoint x="1861.351908119192" y="-712.2548247881713" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_zoN8aa" bpmnElement="edge_zoN8aa">
+        <di:waypoint x="1765.2108074839705" y="-669.8717901259672" />
+        <di:waypoint x="1813.2813578015812" y="-669.8717901259672" />
+        <di:waypoint x="1813.2813578015812" y="-609.1854090694956" />
+        <di:waypoint x="1861.351908119192" y="-609.1854090694956" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_oLdj6W" bpmnElement="edge_oLdj6W">
+        <di:waypoint x="1738.4722064516866" y="-762.7865906493768" />
+        <di:waypoint x="1738.4722064516866" y="-785.6200905787875" />
+        <di:waypoint x="482.3382309506688" y="-785.6200905787875" />
+        <di:waypoint x="482.3382309506688" y="-765.6200905787875" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Gateway_jomLG8-Activity_lZ31lY" bpmnElement="edge_Gateway_jomLG8-Activity_lZ31lY">
+        <di:waypoint x="273.4050286909613" y="-597.4091996058702" />
+        <di:waypoint x="273.4050286909613" y="40.6277852059676" />
+        <di:waypoint x="347.4479898411195" y="40.6277852059676" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Gateway_jomLG8-Activity_sMo4fm" bpmnElement="edge_Gateway_jomLG8-Activity_sMo4fm">
+        <di:waypoint x="273.4050286909613" y="-597.4091996058702" />
+        <di:waypoint x="273.4050286909613" y="142.00043858941433" />
+        <di:waypoint x="347.4479898411195" y="142.00043858941433" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Activity_lZ31lY-Event_fLMFbt" bpmnElement="edge_Activity_lZ31lY-Event_fLMFbt">
+        <di:waypoint x="447.4479898411195" y="40.6277852059676" />
+        <di:waypoint x="495.4479898411195" y="40.6277852059676" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Activity_sMo4fm-Event_a6hTUp" bpmnElement="edge_Activity_sMo4fm-Event_a6hTUp">
+        <di:waypoint x="447.4479898411195" y="142.00043858941433" />
+        <di:waypoint x="495.4479898411195" y="142.00043858941433" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_SNstBW" bpmnElement="edge_SNstBW">
+        <di:waypoint x="531.4479898411196" y="40.6277852059676" />
+        <di:waypoint x="557.3217738664425" y="40.6277852059676" />
+        <di:waypoint x="557.3217738664425" y="-622.4091996058702" />
+        <di:waypoint x="583.1955578917654" y="-622.4091996058702" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_y69CrS" bpmnElement="edge_y69CrS">
+        <di:waypoint x="531.4479898411196" y="142.00043858941433" />
+        <di:waypoint x="557.3217738664425" y="142.00043858941433" />
+        <di:waypoint x="557.3217738664425" y="-622.4091996058702" />
+        <di:waypoint x="583.1955578917654" y="-622.4091996058702" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Activity_VeXsDq-Activity_ateoEp" bpmnElement="edge_Activity_VeXsDq-Activity_ateoEp">
+        <di:waypoint x="2206.048409083758" y="-641.7942889607762" />
+        <di:waypoint x="2272.9021411671692" y="-641.7942889607762" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_2wX59X" bpmnElement="edge_2wX59X">
+        <di:waypoint x="2372.9021411671692" y="-641.7942889607762" />
+        <di:waypoint x="2441.3890953913165" y="-641.7942889607762" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_Activity_b6S7wY-Event_ap64on" bpmnElement="edge_Activity_b6S7wY-Event_ap64on">
+        <di:waypoint x="1938.9722064516866" y="-642.7865906493768" />
+        <di:waypoint x="2000.864430092095" y="-642.7865906493768" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_SfCa5s" bpmnElement="edge_SfCa5s">
+        <di:waypoint x="2036.864430092095" y="-642.7865906493768" />
+        <di:waypoint x="2106.048409083758" y="-641.7942889607762" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_edge_tsZPTB" bpmnElement="edge_tsZPTB">
+        <di:waypoint x="-250.15251725034955" y="-674.8236914621777" />
+        <di:waypoint x="-145.93786911111778" y="-674.8236914621777" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

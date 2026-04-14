@@ -1,0 +1,979 @@
+{
+  "$workflow": {
+    "input": {
+      "NewStatusId": "3E8BB82F-3A2D-F111-9A49-0022480B96F4",
+      "RecordId": "435B70BF-2A2D-F111-9A49-0022480B96F4",
+      "entityName": "DocFlowDocument"
+    }
+  },
+  "$context": {
+    "variables": {
+      "valid": false
+    },
+    "outputs": {
+      "StatusNode": {
+        "statusCode": 200,
+        "statusText": "",
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "9e520059c99609ab-MCI",
+          "content-encoding": "gzip",
+          "content-type": "application/json",
+          "date": "Tue, 31 Mar 2026 20:11:10 GMT",
+          "elements-element-instance-id": "362960",
+          "elements-has-more": "false",
+          "elements-next-page-token": "eyJwcm92aWRlck5leHRQYWdlIjoiRE9ORSJ9",
+          "elements-platform-processing-time": "276",
+          "elements-request-id": "69cc2a5be4b0c1cdec26e341",
+          "elements-script-processing-time": "11",
+          "elements-trace-id": "26c754a3-963c-4eb1-b3c9-bd38fffe4a9c",
+          "elements-vendor-processing-time": "2476",
+          "ratelimit-limit": "450000",
+          "ratelimit-remaining": "449999",
+          "request-context": "appId=cid-v1:7ab58807-7b50-4429-8b1f-8057936dc9fd",
+          "server": "cloudflare",
+          "traceid": "c7b079143cfd9be3823acf1efc20a932",
+          "vary": "accept-encoding",
+          "x-envoy-upstream-service-time": "2852",
+          "x-uipath-targetservice-duration": "2852"
+        },
+        "ok": true,
+        "request": {
+          "method": "GET",
+          "url": "https://staging.uipath.com/a458d0c9-e927-423f-9dd0-ece83a75001a/e6e8bc4f-1e7f-4ce0-b795-28a1924f448c/datafabric_/api/EntityService/StreamPathStatusNode/read/3E8BB82F-3A2D-F111-9A49-0022480B96F4",
+          "headers": {
+            "Accept": "application/json",
+            "Authorization": "==REDACTED==",
+            "Content-Type": "application/json",
+            "x-uipath-s2s-iprange": "NTg5NTNkNDctZmVkYy00YjMzLTk5OWMtM2QxYzc2OTg2Y2E1",
+            "x-uipath-source": "uipath-dataservice-connector-UiPath.ApiWorkflow.Executor"
+          },
+          "query": {
+            "expansionLevel": "3"
+          },
+          "body": null,
+          "multipartFormData": null
+        },
+        "content": {
+          "PositionY": 120,
+          "CreatedBy": {
+            "Type": 0,
+            "Email": "mason.turvey@uipath.com",
+            "IsActive": true,
+            "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+            "UpdateTime": "2025-10-23T19:23:34.1666667+00:00",
+            "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+            "Name": "Mason Turvey"
+          },
+          "CreateTime": "2026-03-31T19:45:43.6834285+00:00",
+          "IsTerminal": false,
+          "Label": "Next",
+          "UpdatedBy": {
+            "Type": 0,
+            "Email": "mason.turvey@uipath.com",
+            "IsActive": true,
+            "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+            "UpdateTime": "2025-10-23T19:23:34.1666667+00:00",
+            "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+            "Name": "Mason Turvey"
+          },
+          "NodeUniqueKey": "3C8BB82F-3A2D-F111-9A49-0022480B96F4::status-2-9fc8d7d3",
+          "RecordOwner": {
+            "Type": 0,
+            "Email": "mason.turvey@uipath.com",
+            "IsActive": true,
+            "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+            "UpdateTime": "2025-10-23T19:23:34.1666667+00:00",
+            "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+            "Name": "Mason Turvey"
+          },
+          "IsStart": false,
+          "NodeType": "status",
+          "UpdateTime": "2026-03-31T19:45:43.6834285+00:00",
+          "Id": "3E8BB82F-3A2D-F111-9A49-0022480B96F4",
+          "NodeKey": "status-2-9fc8d7d3",
+          "PositionX": 456,
+          "FlowDefinition": {
+            "FlowKey": "docflowdocument-workflow",
+            "Description": "Workflow for DocFlow - Document",
+            "CreatedBy": {
+              "Type": 0,
+              "Email": "mason.turvey@uipath.com",
+              "IsActive": true,
+              "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+              "UpdateTime": "2025-10-23T19:23:34.1666667+00:00",
+              "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+              "Name": "Mason Turvey"
+            },
+            "TargetEntityDefinitionId": "3f507431-242d-f111-9a48-6045bd07baf7",
+            "IsActive": true,
+            "CreateTime": "2026-03-31T19:45:36.6828878+00:00",
+            "GraphJson": "{\"nodes\":[{\"id\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"label\":\"Start\",\"nodeKey\":\"status-1-52fbebc0\",\"position\":{\"x\":216,\"y\":120}},{\"id\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"label\":\"Next\",\"nodeKey\":\"status-2-9fc8d7d3\",\"position\":{\"x\":456,\"y\":120}},{\"id\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"label\":\"End\",\"nodeKey\":\"status-3-47f06447\",\"position\":{\"x\":696,\"y\":120}}],\"edges\":[{\"id\":\"temp-edge-a542f347-c862-4058-ad63-b791816cdcac\",\"source\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"target\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"},{\"id\":\"temp-edge-6bdf00a0-44f5-43c7-a3fc-86bbd693a42c\",\"source\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"target\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"}]}",
+            "FlowUniqueKey": "3f507431-242d-f111-9a48-6045bd07baf7::docflowdocument-workflow::v1",
+            "TargetEntityType": "DocFlowDocument",
+            "UpdatedBy": {
+              "Type": 0,
+              "Email": "mason.turvey@uipath.com",
+              "IsActive": true,
+              "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+              "UpdateTime": "2025-10-23T19:23:34.1666667+00:00",
+              "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+              "Name": "Mason Turvey"
+            },
+            "RecordOwner": {
+              "Type": 0,
+              "Email": "mason.turvey@uipath.com",
+              "IsActive": true,
+              "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+              "UpdateTime": "2025-10-23T19:23:34.1666667+00:00",
+              "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+              "Name": "Mason Turvey"
+            },
+            "Version": 1,
+            "FlowName": "DocFlow - Document workflow",
+            "UpdateTime": "2026-03-31T19:45:36.6828878+00:00",
+            "Id": "3C8BB82F-3A2D-F111-9A49-0022480B96F4"
+          }
+        },
+        "vendorProcessingTimeMs": 2476
+      },
+      "Transitions": {
+        "statusCode": 200,
+        "statusText": "",
+        "headers": {
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "https://staging.uipath.com",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "9e520074bd4c09ab-MCI",
+          "content-encoding": "gzip",
+          "content-type": "application/json",
+          "date": "Tue, 31 Mar 2026 20:11:18 GMT",
+          "elements-element-instance-id": "362960",
+          "elements-platform-processing-time": "62",
+          "elements-request-id": "69cc2a5fe4b089e9fa67d3d3",
+          "elements-returned-count": "2",
+          "elements-script-processing-time": "14",
+          "elements-trace-id": "4d2bd663-f28f-4a3e-9945-322973cd1f8c",
+          "elements-vendor-processing-time": "6312",
+          "ratelimit-limit": "450000",
+          "ratelimit-remaining": "449999",
+          "request-context": "appId=cid-v1:7ab58807-7b50-4429-8b1f-8057936dc9fd",
+          "server": "cloudflare",
+          "traceid": "399b0d0a3dca4387ee950584d832839a",
+          "vary": "accept-encoding",
+          "x-envoy-upstream-service-time": "6491",
+          "x-uipath-targetservice-duration": "6491"
+        },
+        "ok": true,
+        "request": {
+          "method": "POST",
+          "url": "https://staging.uipath.com/a458d0c9-e927-423f-9dd0-ece83a75001a/e6e8bc4f-1e7f-4ce0-b795-28a1924f448c/datafabric_/api/EntityService/StreamPathStatusTransition/query",
+          "headers": {
+            "Accept": "application/json",
+            "Authorization": "==REDACTED==",
+            "Content-Type": "application/json",
+            "x-uipath-s2s-iprange": "NTg5NTNkNDctZmVkYy00YjMzLTk5OWMtM2QxYzc2OTg2Y2E1",
+            "x-uipath-source": "uipath-dataservice-connector-UiPath.ApiWorkflow.Executor"
+          },
+          "query": {
+            "expansionLevel": "3"
+          },
+          "body": "{\n  \"start\" : \"0\",\n  \"limit\" : \"100\",\n  \"filterGroup\" : {\n    \"logicalOperator\" : 1,\n    \"continueLogicalOperator\" : 0,\n    \"queryFilters\" : [ {\n      \"fieldName\" : \"FromNode.Id\",\n      \"operator\" : \"=\",\n      \"value\" : \"3E8BB82F-3A2D-F111-9A49-0022480B96F4\"\n    }, {\n      \"fieldName\" : \"ToNode.Id\",\n      \"operator\" : \"=\",\n      \"value\" : \"3E8BB82F-3A2D-F111-9A49-0022480B96F4\"\n    } ]\n  }\n}",
+          "multipartFormData": null
+        },
+        "content": [
+          {
+            "Bidirectional": false,
+            "CreatedBy": {
+              "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+              "Email": "mason.turvey@uipath.com",
+              "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+              "IsActive": true,
+              "Name": "Mason Turvey",
+              "Type": 0,
+              "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+            },
+            "ToNode": {
+              "CreateTime": "2026-03-31T19:45:43.6834285+00:00",
+              "CreatedBy": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              },
+              "FlowDefinition": {
+                "CreateTime": "2026-03-31T19:45:36.6828878+00:00",
+                "CreatedBy": {
+                  "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1"
+                },
+                "Description": "Workflow for DocFlow - Document",
+                "FlowKey": "docflowdocument-workflow",
+                "FlowName": "DocFlow - Document workflow",
+                "FlowUniqueKey": "3f507431-242d-f111-9a48-6045bd07baf7::docflowdocument-workflow::v1",
+                "GraphJson": "{\"nodes\":[{\"id\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"label\":\"Start\",\"nodeKey\":\"status-1-52fbebc0\",\"position\":{\"x\":216,\"y\":120}},{\"id\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"label\":\"Next\",\"nodeKey\":\"status-2-9fc8d7d3\",\"position\":{\"x\":456,\"y\":120}},{\"id\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"label\":\"End\",\"nodeKey\":\"status-3-47f06447\",\"position\":{\"x\":696,\"y\":120}}],\"edges\":[{\"id\":\"temp-edge-a542f347-c862-4058-ad63-b791816cdcac\",\"source\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"target\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"},{\"id\":\"temp-edge-6bdf00a0-44f5-43c7-a3fc-86bbd693a42c\",\"source\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"target\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"}]}",
+                "Id": "3C8BB82F-3A2D-F111-9A49-0022480B96F4",
+                "IsActive": true,
+                "RecordOwner": {
+                  "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1"
+                },
+                "TargetEntityDefinitionId": "3f507431-242d-f111-9a48-6045bd07baf7",
+                "TargetEntityType": "DocFlowDocument",
+                "UpdateTime": "2026-03-31T19:45:36.6828878+00:00",
+                "UpdatedBy": {
+                  "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1"
+                },
+                "Version": 1
+              },
+              "Id": "3E8BB82F-3A2D-F111-9A49-0022480B96F4",
+              "IsStart": false,
+              "IsTerminal": false,
+              "Label": "Next",
+              "NodeKey": "status-2-9fc8d7d3",
+              "NodeType": "status",
+              "NodeUniqueKey": "3C8BB82F-3A2D-F111-9A49-0022480B96F4::status-2-9fc8d7d3",
+              "PositionX": 456,
+              "PositionY": 120,
+              "RecordOwner": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              },
+              "UpdateTime": "2026-03-31T19:45:43.6834285+00:00",
+              "UpdatedBy": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              }
+            },
+            "CreateTime": "2026-03-31T19:45:51.9625981+00:00",
+            "Label": "",
+            "MetadataJson": "{\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\"}",
+            "FromNode": {
+              "CreateTime": "2026-03-31T19:45:39.5501381+00:00",
+              "CreatedBy": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              },
+              "FlowDefinition": {
+                "CreateTime": "2026-03-31T19:45:36.6828878+00:00",
+                "CreatedBy": {
+                  "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1"
+                },
+                "Description": "Workflow for DocFlow - Document",
+                "FlowKey": "docflowdocument-workflow",
+                "FlowName": "DocFlow - Document workflow",
+                "FlowUniqueKey": "3f507431-242d-f111-9a48-6045bd07baf7::docflowdocument-workflow::v1",
+                "GraphJson": "{\"nodes\":[{\"id\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"label\":\"Start\",\"nodeKey\":\"status-1-52fbebc0\",\"position\":{\"x\":216,\"y\":120}},{\"id\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"label\":\"Next\",\"nodeKey\":\"status-2-9fc8d7d3\",\"position\":{\"x\":456,\"y\":120}},{\"id\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"label\":\"End\",\"nodeKey\":\"status-3-47f06447\",\"position\":{\"x\":696,\"y\":120}}],\"edges\":[{\"id\":\"temp-edge-a542f347-c862-4058-ad63-b791816cdcac\",\"source\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"target\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"},{\"id\":\"temp-edge-6bdf00a0-44f5-43c7-a3fc-86bbd693a42c\",\"source\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"target\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"}]}",
+                "Id": "3C8BB82F-3A2D-F111-9A49-0022480B96F4",
+                "IsActive": true,
+                "RecordOwner": {
+                  "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1"
+                },
+                "TargetEntityDefinitionId": "3f507431-242d-f111-9a48-6045bd07baf7",
+                "TargetEntityType": "DocFlowDocument",
+                "UpdateTime": "2026-03-31T19:45:36.6828878+00:00",
+                "UpdatedBy": {
+                  "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1"
+                },
+                "Version": 1
+              },
+              "Id": "3D8BB82F-3A2D-F111-9A49-0022480B96F4",
+              "IsStart": true,
+              "IsTerminal": false,
+              "Label": "Start",
+              "NodeKey": "status-1-52fbebc0",
+              "NodeType": "status",
+              "NodeUniqueKey": "3C8BB82F-3A2D-F111-9A49-0022480B96F4::status-1-52fbebc0",
+              "PositionX": 216,
+              "PositionY": 120,
+              "RecordOwner": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              },
+              "UpdateTime": "2026-03-31T19:45:39.5501381+00:00",
+              "UpdatedBy": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              }
+            },
+            "UpdatedBy": {
+              "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+              "Email": "mason.turvey@uipath.com",
+              "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+              "IsActive": true,
+              "Name": "Mason Turvey",
+              "Type": 0,
+              "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+            },
+            "RecordOwner": {
+              "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+              "Email": "mason.turvey@uipath.com",
+              "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+              "IsActive": true,
+              "Name": "Mason Turvey",
+              "Type": 0,
+              "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+            },
+            "TransitionUniqueKey": "3C8BB82F-3A2D-F111-9A49-0022480B96F4::3D8BB82F-3A2D-F111-9A49-0022480B96F4::3E8BB82F-3A2D-F111-9A49-0022480B96F4",
+            "UpdateTime": "2026-03-31T19:45:51.9625981+00:00",
+            "Id": "B5826136-3A2D-F111-9A49-0022480B96F4",
+            "FlowDefinition": {
+              "CreateTime": "2026-03-31T19:45:36.6828878+00:00",
+              "CreatedBy": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              },
+              "Description": "Workflow for DocFlow - Document",
+              "FlowKey": "docflowdocument-workflow",
+              "FlowName": "DocFlow - Document workflow",
+              "FlowUniqueKey": "3f507431-242d-f111-9a48-6045bd07baf7::docflowdocument-workflow::v1",
+              "GraphJson": "{\"nodes\":[{\"id\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"label\":\"Start\",\"nodeKey\":\"status-1-52fbebc0\",\"position\":{\"x\":216,\"y\":120}},{\"id\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"label\":\"Next\",\"nodeKey\":\"status-2-9fc8d7d3\",\"position\":{\"x\":456,\"y\":120}},{\"id\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"label\":\"End\",\"nodeKey\":\"status-3-47f06447\",\"position\":{\"x\":696,\"y\":120}}],\"edges\":[{\"id\":\"temp-edge-a542f347-c862-4058-ad63-b791816cdcac\",\"source\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"target\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"},{\"id\":\"temp-edge-6bdf00a0-44f5-43c7-a3fc-86bbd693a42c\",\"source\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"target\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"}]}",
+              "Id": "3C8BB82F-3A2D-F111-9A49-0022480B96F4",
+              "IsActive": true,
+              "RecordOwner": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              },
+              "TargetEntityDefinitionId": "3f507431-242d-f111-9a48-6045bd07baf7",
+              "TargetEntityType": "DocFlowDocument",
+              "UpdateTime": "2026-03-31T19:45:36.6828878+00:00",
+              "UpdatedBy": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              },
+              "Version": 1
+            }
+          },
+          {
+            "Bidirectional": false,
+            "CreatedBy": {
+              "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+              "Email": "mason.turvey@uipath.com",
+              "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+              "IsActive": true,
+              "Name": "Mason Turvey",
+              "Type": 0,
+              "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+            },
+            "ToNode": {
+              "CreateTime": "2026-03-31T19:45:47.8503683+00:00",
+              "CreatedBy": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              },
+              "FlowDefinition": {
+                "CreateTime": "2026-03-31T19:45:36.6828878+00:00",
+                "CreatedBy": {
+                  "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1"
+                },
+                "Description": "Workflow for DocFlow - Document",
+                "FlowKey": "docflowdocument-workflow",
+                "FlowName": "DocFlow - Document workflow",
+                "FlowUniqueKey": "3f507431-242d-f111-9a48-6045bd07baf7::docflowdocument-workflow::v1",
+                "GraphJson": "{\"nodes\":[{\"id\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"label\":\"Start\",\"nodeKey\":\"status-1-52fbebc0\",\"position\":{\"x\":216,\"y\":120}},{\"id\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"label\":\"Next\",\"nodeKey\":\"status-2-9fc8d7d3\",\"position\":{\"x\":456,\"y\":120}},{\"id\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"label\":\"End\",\"nodeKey\":\"status-3-47f06447\",\"position\":{\"x\":696,\"y\":120}}],\"edges\":[{\"id\":\"temp-edge-a542f347-c862-4058-ad63-b791816cdcac\",\"source\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"target\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"},{\"id\":\"temp-edge-6bdf00a0-44f5-43c7-a3fc-86bbd693a42c\",\"source\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"target\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"}]}",
+                "Id": "3C8BB82F-3A2D-F111-9A49-0022480B96F4",
+                "IsActive": true,
+                "RecordOwner": {
+                  "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1"
+                },
+                "TargetEntityDefinitionId": "3f507431-242d-f111-9a48-6045bd07baf7",
+                "TargetEntityType": "DocFlowDocument",
+                "UpdateTime": "2026-03-31T19:45:36.6828878+00:00",
+                "UpdatedBy": {
+                  "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1"
+                },
+                "Version": 1
+              },
+              "Id": "B4826136-3A2D-F111-9A49-0022480B96F4",
+              "IsStart": false,
+              "IsTerminal": true,
+              "Label": "End",
+              "NodeKey": "status-3-47f06447",
+              "NodeType": "status",
+              "NodeUniqueKey": "3C8BB82F-3A2D-F111-9A49-0022480B96F4::status-3-47f06447",
+              "PositionX": 696,
+              "PositionY": 120,
+              "RecordOwner": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              },
+              "UpdateTime": "2026-03-31T19:45:47.8503683+00:00",
+              "UpdatedBy": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              }
+            },
+            "CreateTime": "2026-03-31T19:45:59.2419723+00:00",
+            "Label": "",
+            "MetadataJson": "{\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\"}",
+            "FromNode": {
+              "CreateTime": "2026-03-31T19:45:43.6834285+00:00",
+              "CreatedBy": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              },
+              "FlowDefinition": {
+                "CreateTime": "2026-03-31T19:45:36.6828878+00:00",
+                "CreatedBy": {
+                  "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1"
+                },
+                "Description": "Workflow for DocFlow - Document",
+                "FlowKey": "docflowdocument-workflow",
+                "FlowName": "DocFlow - Document workflow",
+                "FlowUniqueKey": "3f507431-242d-f111-9a48-6045bd07baf7::docflowdocument-workflow::v1",
+                "GraphJson": "{\"nodes\":[{\"id\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"label\":\"Start\",\"nodeKey\":\"status-1-52fbebc0\",\"position\":{\"x\":216,\"y\":120}},{\"id\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"label\":\"Next\",\"nodeKey\":\"status-2-9fc8d7d3\",\"position\":{\"x\":456,\"y\":120}},{\"id\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"label\":\"End\",\"nodeKey\":\"status-3-47f06447\",\"position\":{\"x\":696,\"y\":120}}],\"edges\":[{\"id\":\"temp-edge-a542f347-c862-4058-ad63-b791816cdcac\",\"source\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"target\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"},{\"id\":\"temp-edge-6bdf00a0-44f5-43c7-a3fc-86bbd693a42c\",\"source\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"target\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"}]}",
+                "Id": "3C8BB82F-3A2D-F111-9A49-0022480B96F4",
+                "IsActive": true,
+                "RecordOwner": {
+                  "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1"
+                },
+                "TargetEntityDefinitionId": "3f507431-242d-f111-9a48-6045bd07baf7",
+                "TargetEntityType": "DocFlowDocument",
+                "UpdateTime": "2026-03-31T19:45:36.6828878+00:00",
+                "UpdatedBy": {
+                  "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1"
+                },
+                "Version": 1
+              },
+              "Id": "3E8BB82F-3A2D-F111-9A49-0022480B96F4",
+              "IsStart": false,
+              "IsTerminal": false,
+              "Label": "Next",
+              "NodeKey": "status-2-9fc8d7d3",
+              "NodeType": "status",
+              "NodeUniqueKey": "3C8BB82F-3A2D-F111-9A49-0022480B96F4::status-2-9fc8d7d3",
+              "PositionX": 456,
+              "PositionY": 120,
+              "RecordOwner": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              },
+              "UpdateTime": "2026-03-31T19:45:43.6834285+00:00",
+              "UpdatedBy": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              }
+            },
+            "UpdatedBy": {
+              "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+              "Email": "mason.turvey@uipath.com",
+              "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+              "IsActive": true,
+              "Name": "Mason Turvey",
+              "Type": 0,
+              "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+            },
+            "RecordOwner": {
+              "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+              "Email": "mason.turvey@uipath.com",
+              "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+              "IsActive": true,
+              "Name": "Mason Turvey",
+              "Type": 0,
+              "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+            },
+            "TransitionUniqueKey": "3C8BB82F-3A2D-F111-9A49-0022480B96F4::3E8BB82F-3A2D-F111-9A49-0022480B96F4::B4826136-3A2D-F111-9A49-0022480B96F4",
+            "UpdateTime": "2026-03-31T19:45:59.2419723+00:00",
+            "Id": "D9652A3D-3A2D-F111-9A49-0022480B96F4",
+            "FlowDefinition": {
+              "CreateTime": "2026-03-31T19:45:36.6828878+00:00",
+              "CreatedBy": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              },
+              "Description": "Workflow for DocFlow - Document",
+              "FlowKey": "docflowdocument-workflow",
+              "FlowName": "DocFlow - Document workflow",
+              "FlowUniqueKey": "3f507431-242d-f111-9a48-6045bd07baf7::docflowdocument-workflow::v1",
+              "GraphJson": "{\"nodes\":[{\"id\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"label\":\"Start\",\"nodeKey\":\"status-1-52fbebc0\",\"position\":{\"x\":216,\"y\":120}},{\"id\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"label\":\"Next\",\"nodeKey\":\"status-2-9fc8d7d3\",\"position\":{\"x\":456,\"y\":120}},{\"id\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"label\":\"End\",\"nodeKey\":\"status-3-47f06447\",\"position\":{\"x\":696,\"y\":120}}],\"edges\":[{\"id\":\"temp-edge-a542f347-c862-4058-ad63-b791816cdcac\",\"source\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"target\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"},{\"id\":\"temp-edge-6bdf00a0-44f5-43c7-a3fc-86bbd693a42c\",\"source\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"target\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"}]}",
+              "Id": "3C8BB82F-3A2D-F111-9A49-0022480B96F4",
+              "IsActive": true,
+              "RecordOwner": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              },
+              "TargetEntityDefinitionId": "3f507431-242d-f111-9a48-6045bd07baf7",
+              "TargetEntityType": "DocFlowDocument",
+              "UpdateTime": "2026-03-31T19:45:36.6828878+00:00",
+              "UpdatedBy": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              },
+              "Version": 1
+            }
+          }
+        ],
+        "vendorProcessingTimeMs": 6312
+      },
+      "FlowInstances": {
+        "statusCode": 200,
+        "statusText": "",
+        "headers": {
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "https://staging.uipath.com",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "9e5200a09de309ab-MCI",
+          "content-encoding": "gzip",
+          "content-type": "application/json",
+          "date": "Tue, 31 Mar 2026 20:11:23 GMT",
+          "elements-element-instance-id": "362960",
+          "elements-platform-processing-time": "107",
+          "elements-request-id": "69cc2a66e4b0ce06adcbd329",
+          "elements-returned-count": "1",
+          "elements-script-processing-time": "14",
+          "elements-trace-id": "3d6a6fe0-d616-4394-900e-8604a4690374",
+          "elements-vendor-processing-time": "4767",
+          "ratelimit-limit": "450000",
+          "ratelimit-remaining": "449998",
+          "request-context": "appId=cid-v1:7ab58807-7b50-4429-8b1f-8057936dc9fd",
+          "server": "cloudflare",
+          "traceid": "d547c5210353ebd14f260b05c15d6223",
+          "vary": "accept-encoding",
+          "x-envoy-upstream-service-time": "4989",
+          "x-uipath-targetservice-duration": "4989"
+        },
+        "ok": true,
+        "request": {
+          "method": "POST",
+          "url": "https://staging.uipath.com/a458d0c9-e927-423f-9dd0-ece83a75001a/e6e8bc4f-1e7f-4ce0-b795-28a1924f448c/datafabric_/api/EntityService/StreamPathStatusInstance/query",
+          "headers": {
+            "Accept": "application/json",
+            "Authorization": "==REDACTED==",
+            "Content-Type": "application/json",
+            "x-uipath-s2s-iprange": "NTg5NTNkNDctZmVkYy00YjMzLTk5OWMtM2QxYzc2OTg2Y2E1",
+            "x-uipath-source": "uipath-dataservice-connector-UiPath.ApiWorkflow.Executor"
+          },
+          "query": {
+            "expansionLevel": "3"
+          },
+          "body": "{\n  \"start\" : \"0\",\n  \"limit\" : \"1\",\n  \"filterGroup\" : {\n    \"logicalOperator\" : 0,\n    \"continueLogicalOperator\" : 0,\n    \"queryFilters\" : [ {\n      \"fieldName\" : \"TargetRecordId\",\n      \"operator\" : \"=\",\n      \"value\" : \"435B70BF-2A2D-F111-9A49-0022480B96F4\"\n    } ]\n  }\n}",
+          "multipartFormData": null
+        },
+        "content": [
+          {
+            "StateJson": "{\"initializedBy\":\"manual-init-script\",\"initializedAt\":\"2026-03-31T19:50:39.852Z\"}",
+            "CreatedBy": {
+              "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+              "Email": "mason.turvey@uipath.com",
+              "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+              "IsActive": true,
+              "Name": "Mason Turvey",
+              "Type": 0,
+              "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+            },
+            "TargetRecordId": "435B70BF-2A2D-F111-9A49-0022480B96F4",
+            "TargetEntityDefinitionId": "3f507431-242d-f111-9a48-6045bd07baf7",
+            "CreateTime": "2026-03-31T19:50:41.4859461+00:00",
+            "IsClosed": false,
+            "LastTransitionAt": "2026-03-31T19:50:39.852+00:00",
+            "CurrentNodeKey": {
+              "CreateTime": "2026-03-31T19:45:39.5501381+00:00",
+              "CreatedBy": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              },
+              "FlowDefinition": {
+                "CreateTime": "2026-03-31T19:45:36.6828878+00:00",
+                "CreatedBy": {
+                  "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1"
+                },
+                "Description": "Workflow for DocFlow - Document",
+                "FlowKey": "docflowdocument-workflow",
+                "FlowName": "DocFlow - Document workflow",
+                "FlowUniqueKey": "3f507431-242d-f111-9a48-6045bd07baf7::docflowdocument-workflow::v1",
+                "GraphJson": "{\"nodes\":[{\"id\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"label\":\"Start\",\"nodeKey\":\"status-1-52fbebc0\",\"position\":{\"x\":216,\"y\":120}},{\"id\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"label\":\"Next\",\"nodeKey\":\"status-2-9fc8d7d3\",\"position\":{\"x\":456,\"y\":120}},{\"id\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"label\":\"End\",\"nodeKey\":\"status-3-47f06447\",\"position\":{\"x\":696,\"y\":120}}],\"edges\":[{\"id\":\"temp-edge-a542f347-c862-4058-ad63-b791816cdcac\",\"source\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"target\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"},{\"id\":\"temp-edge-6bdf00a0-44f5-43c7-a3fc-86bbd693a42c\",\"source\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"target\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"}]}",
+                "Id": "3C8BB82F-3A2D-F111-9A49-0022480B96F4",
+                "IsActive": true,
+                "RecordOwner": {
+                  "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1"
+                },
+                "TargetEntityDefinitionId": "3f507431-242d-f111-9a48-6045bd07baf7",
+                "TargetEntityType": "DocFlowDocument",
+                "UpdateTime": "2026-03-31T19:45:36.6828878+00:00",
+                "UpdatedBy": {
+                  "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1"
+                },
+                "Version": 1
+              },
+              "Id": "3D8BB82F-3A2D-F111-9A49-0022480B96F4",
+              "IsStart": true,
+              "IsTerminal": false,
+              "Label": "Start",
+              "NodeKey": "status-1-52fbebc0",
+              "NodeType": "status",
+              "NodeUniqueKey": "3C8BB82F-3A2D-F111-9A49-0022480B96F4::status-1-52fbebc0",
+              "PositionX": 216,
+              "PositionY": 120,
+              "RecordOwner": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              },
+              "UpdateTime": "2026-03-31T19:45:39.5501381+00:00",
+              "UpdatedBy": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              }
+            },
+            "TargetEntityType": "DocFlowDocument",
+            "UpdatedBy": {
+              "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+              "Email": "mason.turvey@uipath.com",
+              "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+              "IsActive": true,
+              "Name": "Mason Turvey",
+              "Type": 0,
+              "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+            },
+            "RecordOwner": {
+              "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+              "Email": "mason.turvey@uipath.com",
+              "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+              "IsActive": true,
+              "Name": "Mason Turvey",
+              "Type": 0,
+              "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+            },
+            "CurrentStatusLabel": "Start",
+            "InstanceUniqueKey": "3C8BB82F-3A2D-F111-9A49-0022480B96F4::435B70BF-2A2D-F111-9A49-0022480B96F4",
+            "UpdateTime": "2026-03-31T19:50:41.4859461+00:00",
+            "Id": "C2FE65E5-3A2D-F111-9A49-0022480B96F4",
+            "FlowDefinition": {
+              "CreateTime": "2026-03-31T19:45:36.6828878+00:00",
+              "CreatedBy": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              },
+              "Description": "Workflow for DocFlow - Document",
+              "FlowKey": "docflowdocument-workflow",
+              "FlowName": "DocFlow - Document workflow",
+              "FlowUniqueKey": "3f507431-242d-f111-9a48-6045bd07baf7::docflowdocument-workflow::v1",
+              "GraphJson": "{\"nodes\":[{\"id\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"label\":\"Start\",\"nodeKey\":\"status-1-52fbebc0\",\"position\":{\"x\":216,\"y\":120}},{\"id\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"label\":\"Next\",\"nodeKey\":\"status-2-9fc8d7d3\",\"position\":{\"x\":456,\"y\":120}},{\"id\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"label\":\"End\",\"nodeKey\":\"status-3-47f06447\",\"position\":{\"x\":696,\"y\":120}}],\"edges\":[{\"id\":\"temp-edge-a542f347-c862-4058-ad63-b791816cdcac\",\"source\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"target\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"},{\"id\":\"temp-edge-6bdf00a0-44f5-43c7-a3fc-86bbd693a42c\",\"source\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"target\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"}]}",
+              "Id": "3C8BB82F-3A2D-F111-9A49-0022480B96F4",
+              "IsActive": true,
+              "RecordOwner": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              },
+              "TargetEntityDefinitionId": "3f507431-242d-f111-9a48-6045bd07baf7",
+              "TargetEntityType": "DocFlowDocument",
+              "UpdateTime": "2026-03-31T19:45:36.6828878+00:00",
+              "UpdatedBy": {
+                "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+                "Email": "mason.turvey@uipath.com",
+                "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+                "IsActive": true,
+                "Name": "Mason Turvey",
+                "Type": 0,
+                "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+              },
+              "Version": 1
+            }
+          }
+        ],
+        "vendorProcessingTimeMs": 4767
+      }
+    }
+  },
+  "$input": {
+    "statusCode": 200,
+    "statusText": "",
+    "headers": {
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "https://staging.uipath.com",
+      "cf-cache-status": "DYNAMIC",
+      "cf-ray": "9e5200a09de309ab-MCI",
+      "content-encoding": "gzip",
+      "content-type": "application/json",
+      "date": "Tue, 31 Mar 2026 20:11:23 GMT",
+      "elements-element-instance-id": "362960",
+      "elements-platform-processing-time": "107",
+      "elements-request-id": "69cc2a66e4b0ce06adcbd329",
+      "elements-returned-count": "1",
+      "elements-script-processing-time": "14",
+      "elements-trace-id": "3d6a6fe0-d616-4394-900e-8604a4690374",
+      "elements-vendor-processing-time": "4767",
+      "ratelimit-limit": "450000",
+      "ratelimit-remaining": "449998",
+      "request-context": "appId=cid-v1:7ab58807-7b50-4429-8b1f-8057936dc9fd",
+      "server": "cloudflare",
+      "traceid": "d547c5210353ebd14f260b05c15d6223",
+      "vary": "accept-encoding",
+      "x-envoy-upstream-service-time": "4989",
+      "x-uipath-targetservice-duration": "4989"
+    },
+    "ok": true,
+    "request": {
+      "method": "POST",
+      "url": "https://staging.uipath.com/a458d0c9-e927-423f-9dd0-ece83a75001a/e6e8bc4f-1e7f-4ce0-b795-28a1924f448c/datafabric_/api/EntityService/StreamPathStatusInstance/query",
+      "headers": {
+        "Accept": "application/json",
+        "Authorization": "==REDACTED==",
+        "Content-Type": "application/json",
+        "x-uipath-s2s-iprange": "NTg5NTNkNDctZmVkYy00YjMzLTk5OWMtM2QxYzc2OTg2Y2E1",
+        "x-uipath-source": "uipath-dataservice-connector-UiPath.ApiWorkflow.Executor"
+      },
+      "query": {
+        "expansionLevel": "3"
+      },
+      "body": "{\n  \"start\" : \"0\",\n  \"limit\" : \"1\",\n  \"filterGroup\" : {\n    \"logicalOperator\" : 0,\n    \"continueLogicalOperator\" : 0,\n    \"queryFilters\" : [ {\n      \"fieldName\" : \"TargetRecordId\",\n      \"operator\" : \"=\",\n      \"value\" : \"435B70BF-2A2D-F111-9A49-0022480B96F4\"\n    } ]\n  }\n}"
+    },
+    "content": [
+      {
+        "StateJson": "{\"initializedBy\":\"manual-init-script\",\"initializedAt\":\"2026-03-31T19:50:39.852Z\"}",
+        "CreatedBy": {
+          "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+          "Email": "mason.turvey@uipath.com",
+          "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+          "IsActive": true,
+          "Name": "Mason Turvey",
+          "Type": 0,
+          "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+        },
+        "TargetRecordId": "435B70BF-2A2D-F111-9A49-0022480B96F4",
+        "TargetEntityDefinitionId": "3f507431-242d-f111-9a48-6045bd07baf7",
+        "CreateTime": "2026-03-31T19:50:41.4859461+00:00",
+        "IsClosed": false,
+        "LastTransitionAt": "2026-03-31T19:50:39.852+00:00",
+        "CurrentNodeKey": {
+          "CreateTime": "2026-03-31T19:45:39.5501381+00:00",
+          "CreatedBy": {
+            "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+            "Email": "mason.turvey@uipath.com",
+            "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+            "IsActive": true,
+            "Name": "Mason Turvey",
+            "Type": 0,
+            "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+          },
+          "FlowDefinition": {
+            "CreateTime": "2026-03-31T19:45:36.6828878+00:00",
+            "CreatedBy": {
+              "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1"
+            },
+            "Description": "Workflow for DocFlow - Document",
+            "FlowKey": "docflowdocument-workflow",
+            "FlowName": "DocFlow - Document workflow",
+            "FlowUniqueKey": "3f507431-242d-f111-9a48-6045bd07baf7::docflowdocument-workflow::v1",
+            "GraphJson": "{\"nodes\":[{\"id\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"label\":\"Start\",\"nodeKey\":\"status-1-52fbebc0\",\"position\":{\"x\":216,\"y\":120}},{\"id\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"label\":\"Next\",\"nodeKey\":\"status-2-9fc8d7d3\",\"position\":{\"x\":456,\"y\":120}},{\"id\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"label\":\"End\",\"nodeKey\":\"status-3-47f06447\",\"position\":{\"x\":696,\"y\":120}}],\"edges\":[{\"id\":\"temp-edge-a542f347-c862-4058-ad63-b791816cdcac\",\"source\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"target\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"},{\"id\":\"temp-edge-6bdf00a0-44f5-43c7-a3fc-86bbd693a42c\",\"source\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"target\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"}]}",
+            "Id": "3C8BB82F-3A2D-F111-9A49-0022480B96F4",
+            "IsActive": true,
+            "RecordOwner": {
+              "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1"
+            },
+            "TargetEntityDefinitionId": "3f507431-242d-f111-9a48-6045bd07baf7",
+            "TargetEntityType": "DocFlowDocument",
+            "UpdateTime": "2026-03-31T19:45:36.6828878+00:00",
+            "UpdatedBy": {
+              "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1"
+            },
+            "Version": 1
+          },
+          "Id": "3D8BB82F-3A2D-F111-9A49-0022480B96F4",
+          "IsStart": true,
+          "IsTerminal": false,
+          "Label": "Start",
+          "NodeKey": "status-1-52fbebc0",
+          "NodeType": "status",
+          "NodeUniqueKey": "3C8BB82F-3A2D-F111-9A49-0022480B96F4::status-1-52fbebc0",
+          "PositionX": 216,
+          "PositionY": 120,
+          "RecordOwner": {
+            "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+            "Email": "mason.turvey@uipath.com",
+            "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+            "IsActive": true,
+            "Name": "Mason Turvey",
+            "Type": 0,
+            "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+          },
+          "UpdateTime": "2026-03-31T19:45:39.5501381+00:00",
+          "UpdatedBy": {
+            "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+            "Email": "mason.turvey@uipath.com",
+            "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+            "IsActive": true,
+            "Name": "Mason Turvey",
+            "Type": 0,
+            "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+          }
+        },
+        "TargetEntityType": "DocFlowDocument",
+        "UpdatedBy": {
+          "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+          "Email": "mason.turvey@uipath.com",
+          "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+          "IsActive": true,
+          "Name": "Mason Turvey",
+          "Type": 0,
+          "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+        },
+        "RecordOwner": {
+          "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+          "Email": "mason.turvey@uipath.com",
+          "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+          "IsActive": true,
+          "Name": "Mason Turvey",
+          "Type": 0,
+          "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+        },
+        "CurrentStatusLabel": "Start",
+        "InstanceUniqueKey": "3C8BB82F-3A2D-F111-9A49-0022480B96F4::435B70BF-2A2D-F111-9A49-0022480B96F4",
+        "UpdateTime": "2026-03-31T19:50:41.4859461+00:00",
+        "Id": "C2FE65E5-3A2D-F111-9A49-0022480B96F4",
+        "FlowDefinition": {
+          "CreateTime": "2026-03-31T19:45:36.6828878+00:00",
+          "CreatedBy": {
+            "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+            "Email": "mason.turvey@uipath.com",
+            "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+            "IsActive": true,
+            "Name": "Mason Turvey",
+            "Type": 0,
+            "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+          },
+          "Description": "Workflow for DocFlow - Document",
+          "FlowKey": "docflowdocument-workflow",
+          "FlowName": "DocFlow - Document workflow",
+          "FlowUniqueKey": "3f507431-242d-f111-9a48-6045bd07baf7::docflowdocument-workflow::v1",
+          "GraphJson": "{\"nodes\":[{\"id\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"label\":\"Start\",\"nodeKey\":\"status-1-52fbebc0\",\"position\":{\"x\":216,\"y\":120}},{\"id\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"label\":\"Next\",\"nodeKey\":\"status-2-9fc8d7d3\",\"position\":{\"x\":456,\"y\":120}},{\"id\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"label\":\"End\",\"nodeKey\":\"status-3-47f06447\",\"position\":{\"x\":696,\"y\":120}}],\"edges\":[{\"id\":\"temp-edge-a542f347-c862-4058-ad63-b791816cdcac\",\"source\":\"temp-node-a1d7aabd-7c70-4191-b3d3-2e0a52d26e43\",\"target\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"},{\"id\":\"temp-edge-6bdf00a0-44f5-43c7-a3fc-86bbd693a42c\",\"source\":\"temp-node-49f1d648-6360-45ab-91bd-1e758dbfaf9b\",\"target\":\"temp-node-c69e4474-8be0-48f1-b46a-291345f7bf22\",\"sourceHandle\":\"right-2\",\"targetHandle\":\"left-2\",\"bidirectional\":false,\"label\":\"\"}]}",
+          "Id": "3C8BB82F-3A2D-F111-9A49-0022480B96F4",
+          "IsActive": true,
+          "RecordOwner": {
+            "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+            "Email": "mason.turvey@uipath.com",
+            "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+            "IsActive": true,
+            "Name": "Mason Turvey",
+            "Type": 0,
+            "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+          },
+          "TargetEntityDefinitionId": "3f507431-242d-f111-9a48-6045bd07baf7",
+          "TargetEntityType": "DocFlowDocument",
+          "UpdateTime": "2026-03-31T19:45:36.6828878+00:00",
+          "UpdatedBy": {
+            "CreateTime": "2025-10-23T19:23:34.1666667+00:00",
+            "Email": "mason.turvey@uipath.com",
+            "Id": "EFDA35FF-F4FE-4E0D-947A-BE50729A70C1",
+            "IsActive": true,
+            "Name": "Mason Turvey",
+            "Type": 0,
+            "UpdateTime": "2025-10-23T19:23:34.1666667+00:00"
+          },
+          "Version": 1
+        }
+      }
+    ],
+    "vendorProcessingTimeMs": 4767
+  }
+}

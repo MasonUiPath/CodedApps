@@ -1,0 +1,667 @@
+{
+  "capturedAt": "2026-04-06T17:37:00.093Z",
+  "samples": [
+    {
+      "tSec": 0,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 2,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 4,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 6,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 8,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 10,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 12,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 14,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 16,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 18,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 20,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 22,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 24,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 26,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 28,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 30,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 32,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 34,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 36,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 38,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 40,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 42,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 44,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 46,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 48,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 50,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 52,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 54,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 56,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    },
+    {
+      "tSec": 58,
+      "href": "http://127.0.0.1:4174/",
+      "title": "Credit Underwriting Workspace",
+      "memory": {
+        "usedJSHeapSize": 13400000,
+        "totalJSHeapSize": 18200000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "navType": "navigate",
+      "alertCount": 0
+    }
+  ],
+  "events": [
+    {
+      "ts": "2026-04-06T17:35:54.917Z",
+      "type": "console",
+      "level": "debug",
+      "text": "[vite] connecting..."
+    },
+    {
+      "ts": "2026-04-06T17:35:54.935Z",
+      "type": "console",
+      "level": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "ts": "2026-04-06T17:35:54.998Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connect.attempt {wsUrl: ws://localhost:8080/ws, httpBaseUrl: http://localhost:8080}"
+    },
+    {
+      "ts": "2026-04-06T17:35:54.998Z",
+      "type": "console",
+      "level": "warning",
+      "text": "WebSocket connection to 'ws://localhost:8080/ws' failed: WebSocket is closed before the connection is established."
+    },
+    {
+      "ts": "2026-04-06T17:35:54.998Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connect.attempt {wsUrl: ws://localhost:8080/ws, httpBaseUrl: http://localhost:8080}"
+    },
+    {
+      "ts": "2026-04-06T17:35:54.999Z",
+      "type": "console",
+      "level": "debug",
+      "text": "[vite] connected."
+    },
+    {
+      "ts": "2026-04-06T17:35:55.009Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: socket.onopen}"
+    },
+    {
+      "ts": "2026-04-06T17:35:55.009Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.onopen {wsUrl: ws://localhost:8080/ws, readyState: OPEN}"
+    },
+    {
+      "ts": "2026-04-06T17:35:55.010Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.started {reason: socket_open, connectionState: connecting}"
+    },
+    {
+      "ts": "2026-04-06T17:35:55.010Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: socket.connected_message}"
+    },
+    {
+      "ts": "2026-04-06T17:35:55.010Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connected_message {clientId: e69046a8-01ca-415a-954e-672f32634d41}"
+    },
+    {
+      "ts": "2026-04-06T17:35:55.616Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: loans.load.succeeded}"
+    },
+    {
+      "ts": "2026-04-06T17:35:55.616Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.succeeded {reason: socket_open, count: 2}"
+    },
+    {
+      "ts": "2026-04-06T17:35:55.626Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.started {loanRecordId: FD51032F-D931-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:35:55.627Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.started {loanRecordId: FD51032F-D931-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:35:56.349Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.dataset_counts {loanRecordId: FD51032F-D931-F111-8EF3-6045BDEE451B, definitionsTotal: 1, nodesTotal: 10, transitionsTotal: 10, instancesTotal: 26}"
+    },
+    {
+      "ts": "2026-04-06T17:35:56.349Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.matching {loanRecordId: FD51032F-D931-F111-8EF3-6045BDEE451B, activeFlowId: 935DF973-812F-F111-9A49-6045BDF0582E, flowNodes: 6, flowTransitions: 7, instanceId: 0052032F-D931-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:35:56.349Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.succeeded {loanRecordId: FD51032F-D931-F111-8EF3-6045BDEE451B, flowName: E2E_Loan workflow, nodeCount: 6, edgeCount: 7, currentStatusLabel: New Loan}"
+    },
+    {
+      "ts": "2026-04-06T17:35:57.564Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.succeeded {loanRecordId: FD51032F-D931-F111-8EF3-6045BDEE451B, count: 4}"
+    },
+    {
+      "ts": "2026-04-06T17:36:00.003Z",
+      "type": "action",
+      "action": "click",
+      "target": "Start New Loan"
+    },
+    {
+      "ts": "2026-04-06T17:36:00.233Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.started {reason: entity_change:E2ELoan, connectionState: connected}"
+    },
+    {
+      "ts": "2026-04-06T17:36:00.839Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: loans.load.succeeded}"
+    },
+    {
+      "ts": "2026-04-06T17:36:00.839Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.succeeded {reason: entity_change:E2ELoan, count: 3}"
+    },
+    {
+      "ts": "2026-04-06T17:36:02.875Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.started {reason: entity_change:StreamPathStatusInstance, connectionState: connected}"
+    },
+    {
+      "ts": "2026-04-06T17:36:02.875Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.started {loanRecordId: FD51032F-D931-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:36:02.875Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.started {loanRecordId: FD51032F-D931-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:36:02.882Z",
+      "type": "console",
+      "level": "warning",
+      "text": "[underwriting-client] loan.flow.load.skipped_inflight {loanRecordId: FD51032F-D931-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:36:02.883Z",
+      "type": "console",
+      "level": "warning",
+      "text": "[underwriting-client] loans.load.skipped_inflight {reason: loan_created}"
+    },
+    {
+      "ts": "2026-04-06T17:36:02.883Z",
+      "type": "console",
+      "level": "warning",
+      "text": "[underwriting-client] loan.flow.load.skipped_inflight {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:36:02.883Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.create.succeeded {recordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:36:02.942Z",
+      "type": "console",
+      "level": "warning",
+      "text": "[underwriting-client] loan.flow.load.skipped_inflight {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:36:02.942Z",
+      "type": "console",
+      "level": "warning",
+      "text": "[underwriting-client] agent.tasks.load.skipped_inflight {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:36:03.489Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.succeeded {loanRecordId: FD51032F-D931-F111-8EF3-6045BDEE451B, count: 4}"
+    },
+    {
+      "ts": "2026-04-06T17:36:03.489Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.run_queued_refresh {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:36:03.489Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.started {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:36:03.585Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: loans.load.succeeded}"
+    },
+    {
+      "ts": "2026-04-06T17:36:03.585Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.succeeded {reason: entity_change:StreamPathStatusInstance, count: 3}"
+    },
+    {
+      "ts": "2026-04-06T17:36:03.585Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.run_queued_refresh undefined"
+    },
+    {
+      "ts": "2026-04-06T17:36:03.586Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.started {reason: queued_refresh, connectionState: connected}"
+    },
+    {
+      "ts": "2026-04-06T17:36:03.880Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.dataset_counts {loanRecordId: FD51032F-D931-F111-8EF3-6045BDEE451B, definitionsTotal: 1, nodesTotal: 10, transitionsTotal: 10, instancesTotal: 27}"
+    },
+    {
+      "ts": "2026-04-06T17:36:03.880Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.matching {loanRecordId: FD51032F-D931-F111-8EF3-6045BDEE451B, activeFlowId: 935DF973-812F-F111-9A49-6045BDF0582E, flowNodes: 6, flowTransitions: 7, instanceId: 0052032F-D931-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:36:03.880Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.succeeded {loanRecordId: FD51032F-D931-F111-8EF3-6045BDEE451B, flowName: E2E_Loan workflow, nodeCount: 6, edgeCount: 7, currentStatusLabel: New Loan}"
+    },
+    {
+      "ts": "2026-04-06T17:36:03.880Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.run_queued_refresh {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:36:03.880Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.started {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:36:03.924Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: loans.load.succeeded}"
+    },
+    {
+      "ts": "2026-04-06T17:36:03.924Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.succeeded {reason: queued_refresh, count: 3}"
+    },
+    {
+      "ts": "2026-04-06T17:36:03.981Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.succeeded {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, count: 0}"
+    },
+    {
+      "ts": "2026-04-06T17:36:04.579Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.dataset_counts {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, definitionsTotal: 1, nodesTotal: 10, transitionsTotal: 10, instancesTotal: 27}"
+    },
+    {
+      "ts": "2026-04-06T17:36:04.579Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.matching {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, activeFlowId: 935DF973-812F-F111-9A49-6045BDF0582E, flowNodes: 6, flowTransitions: 7, instanceId: C3801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:36:04.579Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.succeeded {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, flowName: E2E_Loan workflow, nodeCount: 6, edgeCount: 7, currentStatusLabel: New Loan}"
+    }
+  ]
+}

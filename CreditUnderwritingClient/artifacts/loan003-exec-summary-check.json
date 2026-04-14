@@ -1,0 +1,228 @@
+{
+  "capturedAt": "2026-04-07T00:11:00.306Z",
+  "events": [
+    {
+      "ts": "2026-04-07T00:11:01.145Z",
+      "type": "console",
+      "level": "debug",
+      "text": "[vite] connecting..."
+    },
+    {
+      "ts": "2026-04-07T00:11:01.150Z",
+      "type": "console",
+      "level": "debug",
+      "text": "[vite] connected."
+    },
+    {
+      "ts": "2026-04-07T00:11:01.167Z",
+      "type": "console",
+      "level": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "ts": "2026-04-07T00:11:01.227Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connect.attempt {wsUrl: ws://localhost:8080/ws, httpBaseUrl: http://localhost:8080}"
+    },
+    {
+      "ts": "2026-04-07T00:11:01.228Z",
+      "type": "console",
+      "level": "warning",
+      "text": "WebSocket connection to 'ws://localhost:8080/ws' failed: WebSocket is closed before the connection is established."
+    },
+    {
+      "ts": "2026-04-07T00:11:01.228Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connect.attempt {wsUrl: ws://localhost:8080/ws, httpBaseUrl: http://localhost:8080}"
+    },
+    {
+      "ts": "2026-04-07T00:11:01.240Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: socket.onopen}"
+    },
+    {
+      "ts": "2026-04-07T00:11:01.240Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.onopen {wsUrl: ws://localhost:8080/ws, readyState: OPEN}"
+    },
+    {
+      "ts": "2026-04-07T00:11:01.241Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.started {reason: socket_open, connectionState: connecting}"
+    },
+    {
+      "ts": "2026-04-07T00:11:01.241Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: socket.connected_message}"
+    },
+    {
+      "ts": "2026-04-07T00:11:01.241Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connected_message {clientId: a976ae06-2849-4ac1-8fd9-30c3009468de}"
+    },
+    {
+      "ts": "2026-04-07T00:11:02.198Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: loans.load.succeeded}"
+    },
+    {
+      "ts": "2026-04-07T00:11:02.198Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.succeeded {reason: socket_open, count: 4}"
+    },
+    {
+      "ts": "2026-04-07T00:11:02.212Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.started {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-07T00:11:02.213Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.started {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-07T00:11:03.618Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.dataset_counts {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B, definitionsTotal: 1, nodesTotal: 10, transitionsTotal: 10, instancesTotal: 44}"
+    },
+    {
+      "ts": "2026-04-07T00:11:03.618Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.matching {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B, activeFlowId: 935DF973-812F-F111-9A49-6045BDF0582E, flowNodes: 6, flowTransitions: 7, instanceId: 649B38BD-F631-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-07T00:11:03.618Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.succeeded {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B, flowName: E2E_Loan workflow, nodeCount: 6, edgeCount: 7, currentStatusLabel: Draft Credit Memo}"
+    },
+    {
+      "ts": "2026-04-07T00:11:03.705Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.succeeded {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B, count: 8}"
+    },
+    {
+      "ts": "2026-04-07T00:11:08.237Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.started {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-07T00:11:08.237Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.started {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-07T00:11:08.307Z",
+      "type": "action",
+      "action": "click",
+      "target": "Loan 003"
+    },
+    {
+      "ts": "2026-04-07T00:11:08.817Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.succeeded {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B, count: 8}"
+    },
+    {
+      "ts": "2026-04-07T00:11:09.097Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.dataset_counts {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B, definitionsTotal: 1, nodesTotal: 10, transitionsTotal: 10, instancesTotal: 44}"
+    },
+    {
+      "ts": "2026-04-07T00:11:09.097Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.matching {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B, activeFlowId: 935DF973-812F-F111-9A49-6045BDF0582E, flowNodes: 6, flowTransitions: 7, instanceId: 649B38BD-F631-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-07T00:11:09.097Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.succeeded {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B, flowName: E2E_Loan workflow, nodeCount: 6, edgeCount: 7, currentStatusLabel: Draft Credit Memo}"
+    }
+  ],
+  "findings": {
+    "initialBody": "End To End Credit - Loan Underwriting\nLoans In Process\n\nLoan 003\n\nDraft Credit Memo\n\nLast update: 4/6/2026, 3:27:24 PM\n\nLoan 002\n\nDraft Credit Memo\n\nLast update: 4/6/2026, 3:18:57 PM\n\nLoan 001\n\nNew Loan\n\nLast update: 4/6/2026, 12:36:00 PM\n\nLoan_ForAgentTask_2026-04-06T16-53-55-923Z\n\nNew Loan\n\nLast update: 4/6/2026, 11:56:50 AM\n\nStart New Loan\n\n→",
+    "loanCandidates": [
+      "End To End Credit - Loan Underwriting",
+      "Loans In Process",
+      "Loan 003",
+      "Last update: 4/6/2026, 3:27:24 PM",
+      "Loan 002",
+      "Last update: 4/6/2026, 3:18:57 PM",
+      "Loan 001",
+      "Last update: 4/6/2026, 12:36:00 PM",
+      "Loan_ForAgentTask_2026-04-06T16-53-55-923Z",
+      "Last update: 4/6/2026, 11:56:50 AM",
+      "Start New Loan",
+      "→"
+    ],
+    "loan003Count": 1,
+    "relevantLines": [
+      "Loan 003",
+      "Approved",
+      "Approved",
+      "Loan arrived, starting processing.",
+      "Draft Credit Memo",
+      "Agents are working on drafting the different parts of the Credit Memo.",
+      "Underwriter Review",
+      "An underwriter is reviewing and revising the draft Credit Memo",
+      "Manager Review",
+      "Manager is reviewing the Credit Memo for approval",
+      "Credit Memo Entry",
+      "The approved credit memo is entered into the Salesforce system",
+      "REVIEW CREDIT MEMO",
+      "Each agent section shows live status, then unlocks memo review when it reaches review.",
+      "01 Executive Summary",
+      "Created",
+      "Awaiting for agent to start processing.",
+      "Created",
+      "Awaiting for agent to start processing.",
+      "Created",
+      "Awaiting for agent to start processing.",
+      "Created",
+      "Awaiting for agent to start processing.",
+      "Created",
+      "Awaiting for agent to start processing.",
+      "Created",
+      "Awaiting for agent to start processing.",
+      "Created",
+      "Awaiting for agent to start processing.",
+      "Created",
+      "Awaiting for agent to start processing."
+    ],
+    "chips": [
+      "New Loan",
+      "Package Intake",
+      "Draft Credit Memo",
+      "Underwriter Review",
+      "Manager Review",
+      "Credit Memo Entry",
+      "Created",
+      "Created",
+      "Created",
+      "Created",
+      "Created",
+      "Created",
+      "Created",
+      "Created"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "capturedAt": "2026-04-10T13:52:12.287Z",
+  "sectionCardCount": 9,
+  "managerCards": [
+    {
+      "chipTexts": [
+        "Review",
+        "In Progress",
+        "Agent Confidence 79%",
+        "Complete",
+        "Agent Confidence 95%",
+        "Complete",
+        "Agent Confidence N/A",
+        "Complete",
+        "Agent Confidence 65%",
+        "Underwriter Review",
+        "Agent Confidence 85%",
+        "Complete",
+        "Agent Confidence 85%",
+        "Complete",
+        "Agent Confidence 95%",
+        "Complete",
+        "Agent Confidence N/A"
+      ],
+      "hasEditor": true,
+      "snippet": "REVIEW CREDIT MEMO\nReview\n\nProduct Package Details\n\nProduct Package\n\nSherlock Homes 2026 Package (Sample)\n\nPackage Type\n"
+    },
+    {
+      "chipTexts": [
+        "Complete",
+        "Agent Confidence 95%"
+      ],
+      "hasEditor": false,
+      "snippet": "06 Collateral Analysis\n\nComplete\nAgent Confidence 95%\n\nWaiting for remaining sections to reach manager review."
+    },
+    {
+      "chipTexts": [
+        "Complete",
+        "Agent Confidence N/A"
+      ],
+      "hasEditor": false,
+      "snippet": "07 Relationship Summary\n\nComplete\nAgent Confidence N/A\n\nWaiting for remaining sections to reach manager review."
+    },
+    {
+      "chipTexts": [
+        "Complete",
+        "Agent Confidence 65%"
+      ],
+      "hasEditor": false,
+      "snippet": "08 Covenants\n\nComplete\nAgent Confidence 65%\n\nWaiting for remaining sections to reach manager review."
+    },
+    {
+      "chipTexts": [
+        "Complete",
+        "Agent Confidence 85%"
+      ],
+      "hasEditor": false,
+      "snippet": "10 Risk Acceptance Criteria (RAC)/Policy Exceptions\n\nComplete\nAgent Confidence 85%\n\nWaiting for remaining sections to re"
+    },
+    {
+      "chipTexts": [
+        "Complete",
+        "Agent Confidence 95%"
+      ],
+      "hasEditor": false,
+      "snippet": "11 Financial Analysis\n\nComplete\nAgent Confidence 95%\n\nWaiting for remaining sections to reach manager review."
+    },
+    {
+      "chipTexts": [
+        "Complete",
+        "Agent Confidence N/A"
+      ],
+      "hasEditor": false,
+      "snippet": "98 Industry Analysis\n\nComplete\nAgent Confidence N/A\n\nWaiting for remaining sections to reach manager review."
+    }
+  ],
+  "managerReviewWithEditor": 0,
+  "completeWithoutEditor": 6
+}

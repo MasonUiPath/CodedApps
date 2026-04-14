@@ -1,0 +1,548 @@
+{
+  "capturedAt": "2026-04-06T17:40:47.311Z",
+  "samples": [
+    {
+      "tSec": 0,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 2,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 4,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 6,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 8,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 10,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 12,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 14,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 16,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 18,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 20,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 22,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 24,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 26,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 28,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 30,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 32,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 34,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 36,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 38,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 40,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 42,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 44,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 46,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 48,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 50,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 52,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 54,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 56,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 58,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 60,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 62,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 64,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 66,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    },
+    {
+      "tSec": 68,
+      "href": "http://127.0.0.1:4174/",
+      "memory": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "alertCount": 0,
+      "tabText": "← Back To Loans\nEnd To End Credit - Loan Underwriting\nConnected\nLoan 001\n\nCurrent stage: New Loan\n\nLoan Status\nDocument Viewer\n\nLoan Status Flow\n\nLoan 001\n\nApproved\nRejected\nApprov"
+    }
+  ],
+  "events": [
+    {
+      "ts": "2026-04-06T17:39:29.044Z",
+      "type": "console",
+      "level": "debug",
+      "text": "[vite] connecting..."
+    },
+    {
+      "ts": "2026-04-06T17:39:29.057Z",
+      "type": "console",
+      "level": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "ts": "2026-04-06T17:39:29.120Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connect.attempt {wsUrl: ws://localhost:8080/ws, httpBaseUrl: http://localhost:8080}"
+    },
+    {
+      "ts": "2026-04-06T17:39:29.121Z",
+      "type": "console",
+      "level": "warning",
+      "text": "WebSocket connection to 'ws://localhost:8080/ws' failed: WebSocket is closed before the connection is established."
+    },
+    {
+      "ts": "2026-04-06T17:39:29.121Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connect.attempt {wsUrl: ws://localhost:8080/ws, httpBaseUrl: http://localhost:8080}"
+    },
+    {
+      "ts": "2026-04-06T17:39:29.122Z",
+      "type": "console",
+      "level": "debug",
+      "text": "[vite] connected."
+    },
+    {
+      "ts": "2026-04-06T17:39:29.134Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: socket.onopen}"
+    },
+    {
+      "ts": "2026-04-06T17:39:29.134Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.onopen {wsUrl: ws://localhost:8080/ws, readyState: OPEN}"
+    },
+    {
+      "ts": "2026-04-06T17:39:29.134Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.started {reason: socket_open, connectionState: connecting}"
+    },
+    {
+      "ts": "2026-04-06T17:39:29.134Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: socket.connected_message}"
+    },
+    {
+      "ts": "2026-04-06T17:39:29.134Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connected_message {clientId: b6390384-c041-4446-977b-39555f3b49dc}"
+    },
+    {
+      "ts": "2026-04-06T17:39:29.549Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: loans.load.succeeded}"
+    },
+    {
+      "ts": "2026-04-06T17:39:29.549Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.succeeded {reason: socket_open, count: 3}"
+    },
+    {
+      "ts": "2026-04-06T17:39:29.562Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.started {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:39:29.562Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.started {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:39:30.073Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.succeeded {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, count: 0}"
+    },
+    {
+      "ts": "2026-04-06T17:39:30.562Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.dataset_counts {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, definitionsTotal: 1, nodesTotal: 10, transitionsTotal: 10, instancesTotal: 27}"
+    },
+    {
+      "ts": "2026-04-06T17:39:30.562Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.matching {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, activeFlowId: 935DF973-812F-F111-9A49-6045BDF0582E, flowNodes: 6, flowTransitions: 7, instanceId: C3801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:39:30.562Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.succeeded {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, flowName: E2E_Loan workflow, nodeCount: 6, edgeCount: 7, currentStatusLabel: New Loan}"
+    },
+    {
+      "ts": "2026-04-06T17:39:34.114Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.started {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:39:34.114Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.started {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:39:34.196Z",
+      "type": "action",
+      "action": "click",
+      "target": "Loan 001"
+    },
+    {
+      "ts": "2026-04-06T17:39:34.895Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.succeeded {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, count: 0}"
+    },
+    {
+      "ts": "2026-04-06T17:39:35.416Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.dataset_counts {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, definitionsTotal: 1, nodesTotal: 10, transitionsTotal: 10, instancesTotal: 27}"
+    },
+    {
+      "ts": "2026-04-06T17:39:35.416Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.matching {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, activeFlowId: 935DF973-812F-F111-9A49-6045BDF0582E, flowNodes: 6, flowTransitions: 7, instanceId: C3801312-DF31-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-06T17:39:35.416Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.succeeded {loanRecordId: C0801312-DF31-F111-8EF3-6045BDEE451B, flowName: E2E_Loan workflow, nodeCount: 6, edgeCount: 7, currentStatusLabel: New Loan}"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "streampathcoordinator",
+  "version": "1.0.0",
+  "description": "HTTP to WebSocket relay with UiPath TypeScript SDK command bridge",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "test:workflow:loan": "tsx scripts/e2eWorkflowCases.ts --case loan-full",
+    "test:workflow:agent": "tsx scripts/e2eWorkflowCases.ts --case agent-full",
+    "test:workflow:agent-batch": "tsx scripts/e2eWorkflowCases.ts --case agent-batch",
+    "test:workflow:loan:init": "tsx scripts/e2eWorkflowCases.ts --case loan-init",
+    "test:workflow:loan:list": "tsx scripts/e2eWorkflowCases.ts --case loan-list",
+    "test:workflow:loan:step": "tsx scripts/e2eWorkflowCases.ts --case loan-step",
+    "test:workflow:agent:init": "tsx scripts/e2eWorkflowCases.ts --case agent-init",
+    "test:workflow:agent:list": "tsx scripts/e2eWorkflowCases.ts --case agent-list",
+    "test:workflow:agent:step": "tsx scripts/e2eWorkflowCases.ts --case agent-step",
+    "test:workflow:loan:simulate": "tsx scripts/simulateLoanWorkflowViaCoordinator.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@uipath/uipath-typescript": "^1.2.1",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "ws": "^8.20.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.0",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}

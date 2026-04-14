@@ -1,0 +1,199 @@
+{
+  "capturedAt": "2026-04-07T00:16:25.713Z",
+  "events": [
+    {
+      "ts": "2026-04-07T00:16:26.554Z",
+      "type": "console",
+      "level": "debug",
+      "text": "[vite] connecting..."
+    },
+    {
+      "ts": "2026-04-07T00:16:26.570Z",
+      "type": "console",
+      "level": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "ts": "2026-04-07T00:16:26.632Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connect.attempt {wsUrl: ws://localhost:8080/ws, httpBaseUrl: http://localhost:8080}"
+    },
+    {
+      "ts": "2026-04-07T00:16:26.632Z",
+      "type": "console",
+      "level": "warning",
+      "text": "WebSocket connection to 'ws://localhost:8080/ws' failed: WebSocket is closed before the connection is established."
+    },
+    {
+      "ts": "2026-04-07T00:16:26.633Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connect.attempt {wsUrl: ws://localhost:8080/ws, httpBaseUrl: http://localhost:8080}"
+    },
+    {
+      "ts": "2026-04-07T00:16:26.633Z",
+      "type": "console",
+      "level": "debug",
+      "text": "[vite] connected."
+    },
+    {
+      "ts": "2026-04-07T00:16:26.645Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: socket.onopen}"
+    },
+    {
+      "ts": "2026-04-07T00:16:26.645Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.onopen {wsUrl: ws://localhost:8080/ws, readyState: OPEN}"
+    },
+    {
+      "ts": "2026-04-07T00:16:26.645Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.started {reason: socket_open, connectionState: connecting}"
+    },
+    {
+      "ts": "2026-04-07T00:16:26.645Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: socket.connected_message}"
+    },
+    {
+      "ts": "2026-04-07T00:16:26.645Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connected_message {clientId: 236bb456-a439-46a2-988c-5b1abfabdef3}"
+    },
+    {
+      "ts": "2026-04-07T00:16:27.287Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: loans.load.succeeded}"
+    },
+    {
+      "ts": "2026-04-07T00:16:27.287Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.succeeded {reason: socket_open, count: 4}"
+    },
+    {
+      "ts": "2026-04-07T00:16:27.301Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.started {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-07T00:16:27.301Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.started {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-07T00:16:28.096Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.dataset_counts {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B, definitionsTotal: 1, nodesTotal: 10, transitionsTotal: 10, instancesTotal: 44}"
+    },
+    {
+      "ts": "2026-04-07T00:16:28.096Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.matching {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B, activeFlowId: 935DF973-812F-F111-9A49-6045BDF0582E, flowNodes: 6, flowTransitions: 7, instanceId: 649B38BD-F631-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-07T00:16:28.096Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.succeeded {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B, flowName: E2E_Loan workflow, nodeCount: 6, edgeCount: 7, currentStatusLabel: Draft Credit Memo}"
+    },
+    {
+      "ts": "2026-04-07T00:16:28.306Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.succeeded {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B, count: 8}"
+    },
+    {
+      "ts": "2026-04-07T00:16:33.631Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.started {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-07T00:16:33.631Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.started {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-07T00:16:33.730Z",
+      "type": "action",
+      "action": "click",
+      "target": "Loan 003"
+    },
+    {
+      "ts": "2026-04-07T00:16:34.247Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.dataset_counts {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B, definitionsTotal: 1, nodesTotal: 10, transitionsTotal: 10, instancesTotal: 44}"
+    },
+    {
+      "ts": "2026-04-07T00:16:34.247Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.matching {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B, activeFlowId: 935DF973-812F-F111-9A49-6045BDF0582E, flowNodes: 6, flowTransitions: 7, instanceId: 649B38BD-F631-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-07T00:16:34.247Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.succeeded {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B, flowName: E2E_Loan workflow, nodeCount: 6, edgeCount: 7, currentStatusLabel: Draft Credit Memo}"
+    },
+    {
+      "ts": "2026-04-07T00:16:34.362Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.succeeded {loanRecordId: 629B38BD-F631-F111-8EF3-6045BDEE451B, count: 8}"
+    }
+  ],
+  "findings": {
+    "relevantLines": [
+      "Loan 003",
+      "Approved",
+      "Approved",
+      "Loan arrived, starting processing.",
+      "Draft Credit Memo",
+      "Agents are working on drafting the different parts of the Credit Memo.",
+      "Underwriter Review",
+      "An underwriter is reviewing and revising the draft Credit Memo",
+      "Manager Review",
+      "Manager is reviewing the Credit Memo for approval",
+      "Credit Memo Entry",
+      "The approved credit memo is entered into the Salesforce system",
+      "REVIEW CREDIT MEMO",
+      "Each agent section shows live status, then unlocks memo review when it reaches review.",
+      "01 Executive Summary",
+      "Review",
+      "Agent awaiting review from underwriter/manager.",
+      "Created",
+      "Awaiting for agent to start processing.",
+      "Created",
+      "Awaiting for agent to start processing.",
+      "Created",
+      "Awaiting for agent to start processing.",
+      "Created",
+      "Awaiting for agent to start processing.",
+      "Created",
+      "Awaiting for agent to start processing.",
+      "Created",
+      "Awaiting for agent to start processing.",
+      "Created",
+      "Awaiting for agent to start processing."
+    ],
+    "execSummaryInReview": true,
+    "reviewChipCount": 1,
+    "createdChipCount": 7
+  }
+}

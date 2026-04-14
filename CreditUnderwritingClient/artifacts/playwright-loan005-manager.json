@@ -1,0 +1,398 @@
+{
+  "capturedAt": "2026-04-10T13:50:29.908Z",
+  "summary": {
+    "url": "http://127.0.0.1:5174/",
+    "strict": false,
+    "successText": "agent.tasks.load.succeeded",
+    "failText": "Maximum update depth exceeded",
+    "forbidText": null,
+    "successSeen": true,
+    "failSeen": false,
+    "forbidVisible": false,
+    "alertCount": 0,
+    "alerts": []
+  },
+  "events": [
+    {
+      "ts": "2026-04-10T13:50:13.660Z",
+      "type": "console",
+      "level": "debug",
+      "text": "[vite] connecting..."
+    },
+    {
+      "ts": "2026-04-10T13:50:13.676Z",
+      "type": "console",
+      "level": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.748Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connect.attempt {wsUrl: wss://unbowled-paul-decisional.ngrok-free.dev/ws, httpBaseUrl: https://unbowled-paul-decisional.ngrok-free.dev}"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.748Z",
+      "type": "console",
+      "level": "warning",
+      "text": "WebSocket connection to 'wss://unbowled-paul-decisional.ngrok-free.dev/ws' failed: WebSocket is closed before the connection is established."
+    },
+    {
+      "ts": "2026-04-10T13:50:13.748Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connect.attempt {wsUrl: wss://unbowled-paul-decisional.ngrok-free.dev/ws, httpBaseUrl: https://unbowled-paul-decisional.ngrok-free.dev}"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.748Z",
+      "type": "console",
+      "level": "debug",
+      "text": "[vite] connected."
+    },
+    {
+      "ts": "2026-04-10T13:50:13.860Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: socket.onopen}"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.861Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.onopen {wsUrl: wss://unbowled-paul-decisional.ngrok-free.dev/ws, readyState: OPEN}"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.861Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:13.860Z socket.onopen {wsUrl: wss://unbowled-paul-decisional.ngrok-free.dev/ws, readyState: OPEN}"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.861Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:13.860Z ws.send {readyState: OPEN, payloadPreview: {\"type\":\"unsubscribe\"}}"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.861Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:13.860Z ws.send {readyState: OPEN, payloadPreview: {\"type\":\"subscribe\",\"subscriptions\":[{\"entityTypeN…\"},{\"entityTypeName\":\"StreamPathStatusHistory\"}]}}"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.861Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.started {reason: socket_open, connectionState: connecting}"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.861Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:13.860Z command.request.queued {correlationId: ec621720-6231-44bf-a6a8-1b5492461e8b, command: GET_MANY, entityTypeName: E2ELoan, entityId: null}"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.861Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:13.861Z ws.send.connected {payloadPreview: {\"type\":\"command\",\"correlationId\":\"ec621720-6231-4…oan\",\"options\":{\"limit\":5000,\"expansionLevel\":2}}}"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.861Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:13.861Z command.request.queued {correlationId: f6cd794c-2671-4880-af55-b30a2b402d0b, command: GET_MANY, entityTypeName: StreamPathStatusInstance, entityId: null}"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.861Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:13.861Z ws.send.connected {payloadPreview: {\"type\":\"command\",\"correlationId\":\"f6cd794c-2671-4…nce\",\"options\":{\"limit\":5000,\"expansionLevel\":2}}}"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.861Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:13.861Z socket.onmessage.raw {rawPreview: {\"type\":\"connected\",\"clientId\":\"f14a6af3-15dc-4c95…ted. Subscribe to receive entity change events.\"}, readyState: OPEN}"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.861Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:13.861Z socket.message.received {type: connected, payloadPreview: {\"type\":\"connected\",\"clientId\":\"f14a6af3-15dc-4c95…ted. Subscribe to receive entity change events.\"}}"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.862Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: socket.connected_message}"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.862Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] socket.connected_message {clientId: f14a6af3-15dc-4c95-8c3b-a08279228bf1}"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.907Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:13.906Z socket.onmessage.raw {rawPreview: {\"type\":\"unsubscribed\",\"subscriptions\":[]}, readyState: OPEN}"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.907Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:13.906Z socket.message.received {type: unsubscribed, payloadPreview: {\"type\":\"unsubscribed\",\"subscriptions\":[]}}"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.907Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:13.906Z socket.onmessage.raw {rawPreview: {\"type\":\"subscribed\",\"subscriptions\":[{\"entityType…\"},{\"entityTypeName\":\"StreamPathStatusHistory\"}]}, readyState: OPEN}"
+    },
+    {
+      "ts": "2026-04-10T13:50:13.907Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:13.906Z socket.message.received {type: subscribed, payloadPreview: {\"type\":\"subscribed\",\"subscriptions\":[{\"entityType…\"},{\"entityTypeName\":\"StreamPathStatusHistory\"}]}}"
+    },
+    {
+      "ts": "2026-04-10T13:50:14.089Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:14.089Z socket.onmessage.raw {rawPreview: {\"type\":\"command_result\",\"ok\":true,\"correlationId\"…02\",\"TaskFlowsInitialized\":true,\"CreateTime\":\"202, readyState: OPEN}"
+    },
+    {
+      "ts": "2026-04-10T13:50:14.089Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:14.089Z socket.message.received {type: command_result, payloadPreview: {\"type\":\"command_result\",\"ok\":true,\"correlationId\"…00\",\"Email\":\"jpercine@valley.com\",\"Type\":0,\"Crea…}"
+    },
+    {
+      "ts": "2026-04-10T13:50:14.089Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:14.089Z command.result.received {correlationId: ec621720-6231-44bf-a6a8-1b5492461e8b, ok: true, command: GET_MANY, entityTypeName: E2ELoan, entityId: b718c31b-602f-f111-9a49-7c1e5215189b}"
+    },
+    {
+      "ts": "2026-04-10T13:50:14.498Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:14.496Z socket.onmessage.raw {rawPreview: {\"type\":\"command_result\",\"ok\":true,\"correlationId\"…026-04-06T16:22:58.1287474+00:00\",\"CreateTime\":\"2, readyState: OPEN}"
+    },
+    {
+      "ts": "2026-04-10T13:50:14.498Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:14.497Z socket.message.received {type: command_result, payloadPreview: {\"type\":\"command_result\",\"ok\":true,\"correlationId\"…:24:37.495+00:00\",\"CreateTime\":\"2026-04-04T17:24…}"
+    },
+    {
+      "ts": "2026-04-10T13:50:14.498Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:14.497Z command.result.received {correlationId: f6cd794c-2671-4880-af55-b30a2b402d0b, ok: true, command: GET_MANY, entityTypeName: StreamPathStatusInstance, entityId: 0419c31b-602f-f111-9a49-7c1e5215189b}"
+    },
+    {
+      "ts": "2026-04-10T13:50:14.507Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] coordinator.error.cleared {context: loans.load.succeeded}"
+    },
+    {
+      "ts": "2026-04-10T13:50:14.507Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loans.load.succeeded {reason: socket_open, count: 5}"
+    },
+    {
+      "ts": "2026-04-10T13:50:14.522Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.started {loanRecordId: 2BAE7EE4-E234-F111-8EF3-6045BDEE451B, reason: default, isSilent: false}"
+    },
+    {
+      "ts": "2026-04-10T13:50:14.522Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:14.522Z flow.snapshot.request.queued {correlationId: 5983c916-2937-4d45-821c-269812d4f550, recordId: 2BAE7EE4-E234-F111-8EF3-6045BDEE451B, entityTypeName: E2ELoan}"
+    },
+    {
+      "ts": "2026-04-10T13:50:14.522Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:14.522Z ws.send.connected {payloadPreview: {\"type\":\"flow_snapshot_request\",\"correlationId\":\"5…11-8EF3-6045BDEE451B\",\"entityTypeName\":\"E2ELoan\"}}"
+    },
+    {
+      "ts": "2026-04-10T13:50:14.523Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.started {loanRecordId: 2BAE7EE4-E234-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-10T13:50:14.523Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:14.522Z agent.task.snapshot.request.queued {correlationId: 56a1db8e-52d4-4902-8d7d-250a8bbd7c96, loanRecordId: 2BAE7EE4-E234-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-10T13:50:14.523Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:14.522Z ws.send.connected {payloadPreview: {\"type\":\"agent_task_snapshot_request\",\"correlation…RecordId\":\"2BAE7EE4-E234-F111-8EF3-6045BDEE451B\"}}"
+    },
+    {
+      "ts": "2026-04-10T13:50:15.864Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:15.863Z socket.onmessage.raw {rawPreview: {\"type\":\"agent_task_snapshot_result\",\"ok\":true,\"co…270\",\"Name\":\"E2E-DataFabricConnector\",\"UpdateTime, readyState: OPEN}"
+    },
+    {
+      "ts": "2026-04-10T13:50:15.864Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:15.864Z socket.message.received {type: agent_task_snapshot_result, payloadPreview: {\"type\":\"agent_task_snapshot_result\",\"ok\":true,\"co…026-04-03T14:53:41.2453716+00:00\",\"Email\":\"\",\"Ty…}"
+    },
+    {
+      "ts": "2026-04-10T13:50:15.864Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:15.864Z agent.task.snapshot.result.received {correlationId: 56a1db8e-52d4-4902-8d7d-250a8bbd7c96, ok: true, error: null}"
+    },
+    {
+      "ts": "2026-04-10T13:50:15.865Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.succeeded {loanRecordId: 2BAE7EE4-E234-F111-8EF3-6045BDEE451B, count: 8}"
+    },
+    {
+      "ts": "2026-04-10T13:50:15.887Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:15.886Z socket.onmessage.raw {rawPreview: {\"type\":\"flow_snapshot_result\",\"ok\":true,\"correlat…\",\"Email\":\"\",\"Type\":3,\"CreateTime\":\"2026-04-03T14, readyState: OPEN}"
+    },
+    {
+      "ts": "2026-04-10T13:50:15.887Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:15.887Z socket.message.received {type: flow_snapshot_result, payloadPreview: {\"type\":\"flow_snapshot_result\",\"ok\":true,\"correlat…41.2453716+00:00\",\"IsActive\":true},\"RecordOwner\"…}"
+    },
+    {
+      "ts": "2026-04-10T13:50:15.887Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:15.887Z flow.snapshot.result.received {correlationId: 5983c916-2937-4d45-821c-269812d4f550, ok: true, error: null}"
+    },
+    {
+      "ts": "2026-04-10T13:50:15.888Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.succeeded {loanRecordId: 2BAE7EE4-E234-F111-8EF3-6045BDEE451B, flowName: E2E_Loan workflow, nodeCount: 6, edgeCount: 7, currentStatusLabel: Draft Credit Memo}"
+    },
+    {
+      "ts": "2026-04-10T13:50:20.750Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.started {loanRecordId: 2BAE7EE4-E234-F111-8EF3-6045BDEE451B, reason: default, isSilent: false}"
+    },
+    {
+      "ts": "2026-04-10T13:50:20.750Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:20.733Z flow.snapshot.request.queued {correlationId: 082b7e50-bcf3-4e42-bf39-4761599906e5, recordId: 2BAE7EE4-E234-F111-8EF3-6045BDEE451B, entityTypeName: E2ELoan}"
+    },
+    {
+      "ts": "2026-04-10T13:50:20.750Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:20.733Z ws.send.connected {payloadPreview: {\"type\":\"flow_snapshot_request\",\"correlationId\":\"0…11-8EF3-6045BDEE451B\",\"entityTypeName\":\"E2ELoan\"}}"
+    },
+    {
+      "ts": "2026-04-10T13:50:20.750Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.started {loanRecordId: 2BAE7EE4-E234-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-10T13:50:20.750Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:20.734Z agent.task.snapshot.request.queued {correlationId: db8ae443-fe19-4d71-974c-8a14859480cb, loanRecordId: 2BAE7EE4-E234-F111-8EF3-6045BDEE451B}"
+    },
+    {
+      "ts": "2026-04-10T13:50:20.750Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:20.734Z ws.send.connected {payloadPreview: {\"type\":\"agent_task_snapshot_request\",\"correlation…RecordId\":\"2BAE7EE4-E234-F111-8EF3-6045BDEE451B\"}}"
+    },
+    {
+      "ts": "2026-04-10T13:50:20.845Z",
+      "type": "action",
+      "action": "click",
+      "by": "text",
+      "value": "Loan 005"
+    },
+    {
+      "ts": "2026-04-10T13:50:21.780Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:21.779Z socket.onmessage.raw {rawPreview: {\"type\":\"flow_snapshot_result\",\"ok\":true,\"correlat…\",\"Email\":\"\",\"Type\":3,\"CreateTime\":\"2026-04-03T14, readyState: OPEN}"
+    },
+    {
+      "ts": "2026-04-10T13:50:21.780Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:21.779Z socket.message.received {type: flow_snapshot_result, payloadPreview: {\"type\":\"flow_snapshot_result\",\"ok\":true,\"correlat…41.2453716+00:00\",\"IsActive\":true},\"RecordOwner\"…}"
+    },
+    {
+      "ts": "2026-04-10T13:50:21.780Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:21.779Z flow.snapshot.result.received {correlationId: 082b7e50-bcf3-4e42-bf39-4761599906e5, ok: true, error: null}"
+    },
+    {
+      "ts": "2026-04-10T13:50:21.780Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] loan.flow.load.succeeded {loanRecordId: 2BAE7EE4-E234-F111-8EF3-6045BDEE451B, flowName: E2E_Loan workflow, nodeCount: 6, edgeCount: 7, currentStatusLabel: Draft Credit Memo}"
+    },
+    {
+      "ts": "2026-04-10T13:50:21.952Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:21.951Z socket.onmessage.raw {rawPreview: {\"type\":\"agent_task_snapshot_result\",\"ok\":true,\"co…270\",\"Name\":\"E2E-DataFabricConnector\",\"UpdateTime, readyState: OPEN}"
+    },
+    {
+      "ts": "2026-04-10T13:50:21.952Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:21.951Z socket.message.received {type: agent_task_snapshot_result, payloadPreview: {\"type\":\"agent_task_snapshot_result\",\"ok\":true,\"co…026-04-03T14:53:41.2453716+00:00\",\"Email\":\"\",\"Ty…}"
+    },
+    {
+      "ts": "2026-04-10T13:50:21.952Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client][ws-debug] 2026-04-10T13:50:21.951Z agent.task.snapshot.result.received {correlationId: db8ae443-fe19-4d71-974c-8a14859480cb, ok: true, error: null}"
+    },
+    {
+      "ts": "2026-04-10T13:50:21.952Z",
+      "type": "console",
+      "level": "info",
+      "text": "[underwriting-client] agent.tasks.load.succeeded {loanRecordId: 2BAE7EE4-E234-F111-8EF3-6045BDEE451B, count: 8}"
+    },
+    {
+      "ts": "2026-04-10T13:50:29.856Z",
+      "type": "summary",
+      "url": "http://127.0.0.1:5174/",
+      "strict": false,
+      "successText": "agent.tasks.load.succeeded",
+      "failText": "Maximum update depth exceeded",
+      "forbidText": null,
+      "successSeen": true,
+      "failSeen": false,
+      "forbidVisible": false,
+      "alertCount": 0,
+      "alerts": []
+    }
+  ]
+}
